@@ -1,0 +1,55 @@
+html {
+	background: #fafafa;
+}
+
+a {
+	text-decoration: none;
+	color: #4e5255;
+}
+
+#root {
+	color: #4e5255;
+	
+}
+
+.container {	
+	padding-left: 100px;
+}
+
+.my-title {
+	color: blue;
+	text-align: center;
+}
+
+.page-title {
+	text-align: center;
+}
+
+.main-nav {
+	text-align: center; 
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.btn {
+  padding: 8px 12px;
+  margin: 0 10px;
+  font-size: .8em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  letter-spacing: .4px;
+  display: inline;
+  background-color: #eaedf1;
+  color: #4e5255;
+    /*
+    -webkit-transform: none;
+    -ms-transform: none;
+
+    transform: none;*/
+    text-decoration: none;
+
+}
+
+.active {
+ 	color: red;
+}

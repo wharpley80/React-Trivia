@@ -3,6 +3,8 @@ import Header from '../containers/header';
 import Intro from '../containers/intro';
 import MovieResponse from '../containers/movie-response';
 import TriviaCategory from '../containers/trivia-category';
+import MovieGuessed from '../containers/movie-guessed';
+import { connect } from 'react-redux';
 
 
 class App extends Component {
@@ -12,7 +14,8 @@ class App extends Component {
         <Header />
         <div className="container">
           <Intro />
-          <MovieResponse />
+          <MovieResponse dispatch={this.props.dispatch} />
+          <MovieGuessed guessed={this.props.guessed} />
           <TriviaCategory />
         </div>
       </div>
@@ -20,4 +23,8 @@ class App extends Component {
   }
 }
 
-export default App;
+function mapStateToProps(state) {
+  return state
+}
+
+export default connect(mapStateToProps)(App);

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { selectCategory } from '../actions/select-cat';
-//import NavLink from './NavLink';
+import NavLink from '../components/NavLink';
 
 class Intro extends Component {
 

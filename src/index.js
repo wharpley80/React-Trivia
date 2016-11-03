@@ -4,10 +4,13 @@ import ReactDOM from 'react-dom';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
+import { applyMiddleware } from 'redux';
+import logger from 'redux-logger';
 import allReducers from './reducers';
-//import App from './components/App';
 
-const store = createStore(allReducers);
+const middleware = applyMiddleware(logger());
+
+const store = createStore(allReducers, middleware);
 
 // CSS
 import './css/style.scss';

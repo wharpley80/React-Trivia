@@ -9,7 +9,6 @@ class MovieDetail extends Component {
 		}
 		return (
 			<div>
-				<img src={this.props.movie.img_src} />
 				<h2>{this.props.movie.answer}</h2>
 			</div>
 		);

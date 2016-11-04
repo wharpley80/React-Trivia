@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../containers/header';
-import Intro from '../containers/intro';
+import Stopwatch from '../containers/stopwatch';
 import SportsTrivia from '../containers/sports-list';
 import SportsGuessed from '../containers/sports-guessed';
 import SportsScore from '../containers/sports-score';
@@ -10,12 +10,13 @@ class Sports extends Component {
     return (
     	<div>
     		<Header />
-    		<h1>Sports Trivia</h1>
-    		<Intro />
-    		<SportsTrivia />
-    		<SportsGuessed />
-    		<SportsScore />
-    	</div>
+        <div className="container">
+  		    <h1>Sports Trivia</h1>
+          <Stopwatch />
+  		    <SportsGuessed />
+  		   <SportsScore />
+  	    </div>
+      </div>
     );
   }
 }

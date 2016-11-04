@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import TriviaCategory from '../containers/trivia-category';
+import SportsTrivia from '../containers/sports-list';
+
+
+
+
 
 class Stopwatch extends Component {
+
+
 
 	render() {
 
@@ -12,6 +19,7 @@ class Stopwatch extends Component {
 		      running: false,
 		      elapsedTime: 20000,
 		      previousTime: 0,
+		      showResults: false,
 		    } 
 		  },
 
@@ -34,18 +42,29 @@ class Stopwatch extends Component {
 		  },
 
 		  onStart: function() {
-			
 		    this.setState({   
 		      running: true,
 		      previousTime: Date.now(),
+		      showResults: true,
 		    });
+		    console.log("Hello");
 				setTimeout(this.onStop, 20000); 
-
 		  },
+ 
+ 			onSports: function() {
+ 				console.log("hello");
+ 					return (
+ 						<div>
+ 							<h1>Hello</h1>
+ 						</div>
+ 					);
+ 			},
+		  
 
 		  onStop: function() {
 		    this.setState({ 
-		      running: false 
+		      running: false,
+		      showResults: false,
 		    });
 		  },
 
@@ -68,7 +87,11 @@ class Stopwatch extends Component {
 		          <button onClick={this.onStart}>Start</button>
 		          }
 		        <button onClick={this.onReset}>Reset</button>
+		        { this.state.showResults ? <SportsTrivia /> : null }
+		        
 		      </div>
+
+
 		    );
 		  }
 		});

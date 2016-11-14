@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
 import Header from '../containers/header';
-import Intro from '../containers/intro';
-import Stopwatch from '../containers/stopwatch';
-import MovieList from '../containers/movie-list';
-import MovieDetail from '../containers/movie-detail';
+import MovieScore from '../containers/movie-score';
+import MovieStopwatch from '../containers/movie-stopwatch';
+import Footer from '../components/Footer';
 
 class Movies extends Component {
   render() {
     return (
     	<div>
     		<Header />
-    		<h1>Movies Trivia</h1>
-    		<Intro />
-    		<MovieList />
-    		<Stopwatch />
-    		<MovieDetail />
+        <div className="container">
+          <div className="body-head">
+        		<h1 className="page-title">Movie Trivia</h1>
+            <MovieScore />
+          </div>		
+          <MovieStopwatch />
+        </div>
+        <Footer />
     	</div>
     );
   }

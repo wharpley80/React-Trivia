@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Header from '../containers/header';
-import Stopwatch from '../containers/stopwatch';
-import SportsTrivia from '../containers/sports-list';
-import SportsGuessed from '../containers/sports-guessed';
 import SportsScore from '../containers/sports-score';
+import SportsStopwatch from '../containers/sports-stopwatch';
+import Footer from '../components/Footer';
 
 class Sports extends Component {
   render() {
@@ -11,11 +10,13 @@ class Sports extends Component {
     	<div>
     		<Header />
         <div className="container">
-  		    <h1>Sports Trivia</h1>
-          <Stopwatch />
-  		    <SportsGuessed />
-  		   <SportsScore />
+          <div className="body-head">
+    		    <h1 className="page-title">Sports Trivia</h1>
+            <SportsScore />
+          </div>
+          <SportsStopwatch />	   
   	    </div>
+        <Footer />
       </div>
     );
   }

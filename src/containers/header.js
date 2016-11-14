@@ -7,12 +7,12 @@ class Header extends Component {
 	render() {
 		return (
 			<header>
-				<h1 className="my-title">ReacTrivia</h1>
+				<NavLink to="/"><h1 className="my-title">ReacTrivia</h1></NavLink>
         <ul className="main-nav">
-          <li className="btn"><NavLink to="/">Home</NavLink></li>
-          <li className="btn"><NavLink to="/movies">Movies</NavLink></li>
-          <li className="btn"><NavLink to="/sports">Sports</NavLink></li>
-          <li className="btn"><NavLink to="/places">Places</NavLink></li>
+          <li className="nav-btn"><NavLink to="/">Home</NavLink></li>
+          <li className="nav-btn"><NavLink to="/movies">Movies</NavLink></li>
+          <li className="nav-btn"><NavLink to="/sports">Sports</NavLink></li>
+          <li className="nav-btn"><NavLink to="/places">Places</NavLink></li>
         </ul>       
       </header>
 		);

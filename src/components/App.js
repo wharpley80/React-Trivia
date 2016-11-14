@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Header from '../containers/header';
-import Intro from '../containers/intro';
+import Welcome from '../containers/Welcome';
+import WelcomeImages from '../containers/welcome-images';
 import MovieResponse from '../containers/movie-response';
-import TriviaCategory from '../containers/trivia-category';
 import MovieGuessed from '../containers/movie-guessed';
 import { connect } from 'react-redux';
-
+import Footer from '../components/Footer';
 
 class App extends Component {
   render() {
@@ -13,18 +13,13 @@ class App extends Component {
       <div className="root">
         <Header />
         <div className="container">
-          <Intro />
-          <MovieResponse dispatch={this.props.dispatch} />
-          <MovieGuessed guessed={this.props.guessed} />
-          <TriviaCategory />
+          <Welcome />
+          <WelcomeImages />
         </div>
+        <Footer />
       </div>
     );
   }
 }
 
-function mapStateToProps(state) {
-  return state
-}
-
-export default connect(mapStateToProps)(App);
+export default App;

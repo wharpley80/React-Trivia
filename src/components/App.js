@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../containers/header';
-import Welcome from '../containers/Welcome';
+import Welcome from '../containers/welcome';
 import WelcomeImages from '../containers/welcome-images';
 import MovieResponse from '../containers/movie-response';
 import MovieGuessed from '../containers/movie-guessed';

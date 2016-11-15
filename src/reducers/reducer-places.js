@@ -13,7 +13,7 @@ export default function() {
 	  {
 	    answer: "Chicago",
 	    question: "In what city is The Bean(Cloud Gate) located?",
-	    img: "./src/img/chicago-bean.jpg",
+	    img: "http://easylistmaker.com/trivia-img/chicago-bean.jpg",
 	    option_1: "San Francisco",
 	    option_2: "Chicago",
 	    option_3: "New York",
@@ -23,7 +23,7 @@ export default function() {
 	  {
 	    answer: "Paris",
 	    question: "In what city is the Eiffel Tower located?",
-	    img: "./src/img/eiffel-tower.jpg",
+	    img: "http://easylistmaker.com/trivia-img/eiffel-tower.jpg",
 	    option_1: "Paris",
 	    option_2: "Vienna",
 	    option_3: "Normandy",
@@ -33,7 +33,7 @@ export default function() {
 	  {
 	    answer: "Capitol Building",
 	    question: "Name the building pictured below?",
-	    img: "./src/img/capitol-building.jpeg",
+	    img: "http://easylistmaker.com/trivia-img/capitol-building.jpeg",
 	    option_1: "Pentagon",
 	    option_2: "White House",
 	    option_3: "Capitol Building",

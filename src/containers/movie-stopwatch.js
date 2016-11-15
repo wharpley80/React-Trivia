@@ -16,7 +16,7 @@ class MovieStopwatch extends Component {
 		  getInitialState: function() {
 		    return {
 		      running: false,
-		      elapsedTime: 20000,
+		      elapsedTime: 60000,
 		      previousTime: 0,
 		      showResults: false,
 		      gameRules: true,
@@ -55,14 +55,14 @@ class MovieStopwatch extends Component {
 		      showExpire: false,
 		    });
 		    console.log("Hello");
-				setTimeout(this.onStop, 20000); 
+				setTimeout(this.onStop, 60000); 
 		  },
 		  
 		  onStop: function() {
 		    this.setState({ 
 		      running: false,
 		      showResults: false,
-		      elapsedTime: 20000,
+		      elapsedTime: 60000,
 		      showExpire: true,
 		      showTimer: false,
 		      startButton: true,
@@ -71,7 +71,7 @@ class MovieStopwatch extends Component {
 
 		  onReset: function() {
 		    this.setState({
-		      elapsedTime: 20000,
+		      elapsedTime: 60000,
 		      previousTime: Date.now(),
 		    });
 		  },

@@ -62,7 +62,7 @@ body {
 }
 
 header {
-  height: 60px;
+  height: 600px;
   width: 100%;
   background-color: #fff;
   padding-top: 10px;
@@ -263,11 +263,13 @@ li {
 
 }
 
-.welcom-img-cont {
+.welcome-img-cont {
   height: 300px;
   width: 100%;
+  margin: 20px auto;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .welcome-col {
@@ -296,16 +298,16 @@ li {
     margin: 10px 10%;
   }
 
-}
+  .welcome-img-cont {
+    display: block;
+    margin-top: 100px;
+  }
 
-.welcome-img-cont {
-  display: block;
-  margin-top: 100px;
-}
+  .welcome-img {
+    width: 100%;
+    margin: 20px 0;
+  }
 
-.welcome-img {
-  width: 100%;
-  margin: 20px 0;
 }
 
 /************************

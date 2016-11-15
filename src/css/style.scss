@@ -398,7 +398,7 @@ li {
 
   .expire-cont {
     width: 300px;
-    font-size: 12px;
+    font-size: 30px;
   }
 
 }
@@ -427,6 +427,11 @@ li {
 }
 
 @media (max-width:640px) {
+
+  .questions {
+    font-size: 30px;
+    text-align: left;
+  }
 
   .question-img {
     width: 100%;

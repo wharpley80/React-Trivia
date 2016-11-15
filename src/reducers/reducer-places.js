@@ -3,7 +3,7 @@ export default function() {
 		{
 	    answer: "San Francisco",
 	    question: "What city is this bridge located?",
-	    img: "./src/img/golden-gate-bridge.jpg",
+	    img: "http://easylistmaker.com/trivia-img/golden-gate-bridge.jpg",
 	    option_1: "Seattle",
 	    option_2: "San Diego",
 	    option_3: "San Francisco",

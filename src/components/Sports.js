@@ -16,7 +16,7 @@ class Sports extends Component {
           </div>
           <SportsStopwatch />	   
   	    </div>
-        <Footer />
+
       </div>
     );
   }

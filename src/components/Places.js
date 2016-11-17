@@ -16,7 +16,7 @@ class Places extends Component {
           </div>
           <PlacesStopwatch />
     		</div>
-        <Footer />
+       
     	</div>
     );
   }

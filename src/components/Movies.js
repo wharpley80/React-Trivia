@@ -16,7 +16,7 @@ class Movies extends Component {
           </div>		
           <MovieStopwatch />
         </div>
-        <Footer />
+       
     	</div>
     );
   }

@@ -53,11 +53,13 @@ $p-fonts: 'Titillium Web','Helvetica Neue','Helvetica','Arial',sans-serif;
 
 html {
 	background: #fafafa;
+  height: 100%;
 }
 
 body {
   color: $primary-color;
   margin: 0;
+  height: 100%;
 }
 
 header {
@@ -265,7 +267,7 @@ li {
 .welcome-img-cont {
   height: 300px;
   width: 100%;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 .welcome-col {
@@ -286,24 +288,48 @@ li {
   
 }
 
-@media (max-width:640px) {
+.welcome-img {
+  width: 100%;
+  margin-top: 15px;
+}
 
-  .welcome-col {
-    display: block;
-    width: 80%;
-    margin: 10px 10%;
-  }
+.welcome-content {
+  width: 80%;
+  max-width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
 
-  .welcome-img-cont {
-    display: block;
-    margin-top: 100px;
+  p {
+    font-family: $p-fonts;
+    text-align: left;
+    font-size: 20px;
   }
 
 }
 
-.welcome-img {
-  width: 100%;
-  margin: 20px 0;
+@media (max-width:640px) {
+
+  .welcome-cont {
+    height: 40px;
+  }
+
+  .welcome-img-cont {
+    height: 100px;
+  }
+
+  .welcome-col {
+    font-size: 20px;
+  }
+
+  .welcome-content {
+    height: 400px;
+    p {
+      font-size: 16px;
+    }
+
+  }
+
 }
 
 /************************
@@ -401,7 +427,7 @@ li {
     p {
       font-size: 30px;
     }
-    
+
   }
 
 }
@@ -446,15 +472,18 @@ li {
         FOOTER
 ************************/
 
-footer {
+.footer {
+  
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-color: #fff;
   height: 60px;
   width: 100%;
-  position: fixed;
-  bottom: 0;
 
   p {
-    margin: 20px 0 0 50px;
+    margin: 0 0 10px 50px;
+    padding-top: 20px;
   }
 
   a {

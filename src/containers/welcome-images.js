@@ -17,6 +17,7 @@ class WelcomeImages extends Component {
 		      message3: "Places",
 		      someCondition: false,
 		      someOther: false,
+		      someContent: false,
 		    } 
 		    
 		  },
@@ -24,6 +25,7 @@ class WelcomeImages extends Component {
 		  componentWillMount: function() {
         setTimeout(this.onTick, 2000); 
         setTimeout(this.onTicker, 4000);
+        setTimeout(this.onTicked, 6000); 
 		  },
 
 		  onTick: function() {
@@ -38,9 +40,16 @@ class WelcomeImages extends Component {
 	      });
 		  },
 
+		  onTicked: function() {
+	      this.setState({  	
+	        someContent: true,
+	      });
+		  },
+
 		  render: function() {
 
 				return (
+					<div>
 					<div className="welcome-img-cont">
 					  <div className="welcome-col">
 						  <ReactCSSTransitionGroup
@@ -88,6 +97,29 @@ class WelcomeImages extends Component {
 								</ReactCSSTransitionGroup> 
 							: null }	
 						</div>
+					</div>
+					<div className="content-cont">
+					  <div className="welcome-content-cont">
+					  	{ this.state.someContent ? 
+						  <ReactCSSTransitionGroup
+					      transitionName="example"
+					      transitionAppear={true}
+					      transitionAppearTimeout={2000}				      
+					      transitionEnter={false}
+					      transitionLeaveTimeout={200}
+					      transitionLeave={true}>
+						    <p>
+						    	Welcome to ReactTrivia! If you love Trivia then you&#39;ve come to the right place. First you choose
+						    	your category whether it&#39;s Movies, Sports, or Places. Once you click start you&#39;ll have 60 seconds 
+						    	to see how high you can score. All questions are multiple choice, and you&#39;ll get 1 point for every 
+						    	correct answer. The catch is that you get -1 point for every incorrect answer. After the 60 seconds 
+						    	is up you can reset you score and start over or just keep playing to see how high you can go. Test 
+						    	your skills and see how high you can score. 
+						    </p>	    	
+							</ReactCSSTransitionGroup>
+							: null }			
+						</div>
+					</div>
 					</div>
 		    );
 

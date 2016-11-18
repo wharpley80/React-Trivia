@@ -356,8 +356,14 @@ li {
   color: $secondary-color;
 }
 
+.rules-container {
+  width: 100%;
+  padding-top: 40px;
+}
+
 .rules-cont {
-  width: 300px;
+  width: 100%;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -365,16 +371,68 @@ li {
 
 .rules-title {
   text-align: center;
+  color: $secondary-color;
+  margin-top: 10px;
 }
 
 .rules-list {
   font-family: $p-fonts;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 165%;
 }
 
 .rules {
   list-style-type: decimal;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $secondary-color;
+  margin: 1em 0;
+  padding: 0; 
+}
+
+.start-btn {
+  @include my_buttons;
+  text-decoration: none;
+}
+
+@media (max-width:640px) {
+
+  .body-head {
+    width: 40%;
+    display: inline;
+    float: left;
+    padding: 0;
+  } 
+
+  .rules-cont {
+    width: 80%;
+  }
+
+  .score-cont {
+    width: 100%;
+  }
+
+  .player-score {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+
+  .stopwatch-time {
+    font-size: 20px;
+    display: inline-block;
+    width: 40%;
+    padding-top: 10px;
+  }
+
+  .start-btn {
+    @include phone_buttons;
+    margin-top: 10px;
+  }
+
 }
 
 /************************
@@ -411,8 +469,8 @@ li {
 }
 
 .question:hover {
-  background-color: green;
-  color: #fff;
+  background-color: #00ff00;
+  color: #4e5255;
 }
 
 .expire-cont {
@@ -435,7 +493,7 @@ li {
     width: 300px;
 
     p {
-      font-size: 30px;
+      font-size: 20px;
     }
 
   }
@@ -468,7 +526,7 @@ li {
 @media (max-width:640px) {
 
   .questions {
-    font-size: 30px;
+    font-size: 20px;
     text-align: left;
   }
 

@@ -53,8 +53,7 @@ class MovieStopwatch extends Component {
 		      startButton: false,
 		      showTimer: true,
 		      showExpire: false,
-		    });
-		    console.log("Hello");
+		    });	    
 				setTimeout(this.onStop, 60000); 
 		  },
 		  
@@ -79,12 +78,16 @@ class MovieStopwatch extends Component {
 		  render: function() {
 		    var seconds = Math.floor(this.state.elapsedTime / 1000);
 		    return (
+		    	<div>
+		    	{ this.state.showTimer ? <div className="stopwatch-time">{ seconds }</div> : null }
 		      <div className="stopwatch">
+
 		        { this.state.gameRules ? <GameRules /> : null }	
-		        { this.state.startButton ? <button className="btn" onClick={ this.onStart }>Start</button> : null }
-		        { this.state.showTimer ? <div className="stopwatch-time">{ seconds }</div> : null }
+		        { this.state.startButton ? <button className="start-btn" onClick={ this.onStart }>Start</button> : null }
+		        
 		        { this.state.showResults ? <MovieTrivia /> : null }		
 		        { this.state.showExpire ? <MovieExpire  onStart={ this.props.onStart }/> : null }     
+		      </div>
 		      </div>
 		    );
 		  }

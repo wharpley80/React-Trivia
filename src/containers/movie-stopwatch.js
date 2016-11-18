@@ -79,15 +79,13 @@ class MovieStopwatch extends Component {
 		    var seconds = Math.floor(this.state.elapsedTime / 1000);
 		    return (
 		    	<div>
-		    	{ this.state.showTimer ? <div className="stopwatch-time">{ seconds }</div> : null }
-		      <div className="stopwatch">
-
-		        { this.state.gameRules ? <GameRules /> : null }	
-		        { this.state.startButton ? <button className="start-btn" onClick={ this.onStart }>Start</button> : null }
-		        
-		        { this.state.showResults ? <MovieTrivia /> : null }		
-		        { this.state.showExpire ? <MovieExpire  onStart={ this.props.onStart }/> : null }     
-		      </div>
+			    	{ this.state.showTimer ? <div className="stopwatch-time">{ seconds }</div> : null }
+			      <div className="stopwatch">
+			        { this.state.gameRules ? <GameRules /> : null }	
+			        { this.state.startButton ? <button className="start-btn" onClick={ this.onStart }>Start</button> : null } 
+			        { this.state.showResults ? <MovieTrivia /> : null }		
+			        { this.state.showExpire ? <MovieExpire  onStart={ this.props.onStart }/> : null }     
+			      </div>
 		      </div>
 		    );
 		  }

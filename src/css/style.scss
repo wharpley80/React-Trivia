@@ -430,6 +430,7 @@ hr {
 
   .start-btn {
     @include phone_buttons;
+    padding: 6px 10px;
     margin-top: 10px;
   }
 
@@ -466,11 +467,16 @@ hr {
 
 .question {
   @include my_buttons;
+  background-color: $secondary-color;
+  color: #fff;
+
 }
 
 .question:hover {
   background-color: #00ff00;
+  background-color: #fff;
   color: #4e5255;
+  color: $secondary-color;
 }
 
 .expire-cont {
@@ -487,6 +493,8 @@ hr {
 
   .question {
     @include phone_questions;
+    background-color: $secondary-color;
+    color: #fff;
   }
 
   .expire-cont {
@@ -511,8 +519,8 @@ hr {
   }
 
   .question-cont {
-    margin-top: 40px;
     text-align: center;
+    margin-top: 40px;
   }
 
 }
@@ -525,6 +533,19 @@ hr {
 
 @media (max-width:640px) {
 
+  .places-list-cont {
+
+    .questions {
+    text-align: left;
+  }
+
+    .question {
+      display: inline;
+      margin: 5px;
+    }
+
+  }
+
   .questions {
     font-size: 20px;
     text-align: left;
@@ -532,6 +553,7 @@ hr {
 
   .question-img {
     width: 100%;
+    margin: 0;
   }
 
 }

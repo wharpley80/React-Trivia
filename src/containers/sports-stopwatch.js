@@ -78,12 +78,14 @@ class SportsStopwatch extends Component {
 		  render: function() {
 		    var seconds = Math.floor(this.state.elapsedTime / 1000);
 		    return (
-		      <div className="stopwatch">
-		        { this.state.gameRules ? <GameRules /> : null }	
-		        { this.state.showTimer ? <div className="stopwatch-time">{ seconds }</div> : null }  
-		        { this.state.startButton ? <button className="btn" onClick={ this.onStart }>Start</button> : null }
-		        { this.state.showResults ? <SportsTrivia /> : null }		
-		        { this.state.showExpire ? <SportsExpire  onStart={ this.props.onStart }/> : null }    
+		    	<div>
+			    	{ this.state.showTimer ? <div className="stopwatch-time">{ seconds }</div> : null }
+			      <div className="stopwatch">
+			        { this.state.gameRules ? <GameRules /> : null }	 
+			        { this.state.startButton ? <button className="start-btn" onClick={ this.onStart }>Start</button> : null }
+			        { this.state.showResults ? <SportsTrivia /> : null }		
+			        { this.state.showExpire ? <SportsExpire  onStart={ this.props.onStart }/> : null }    
+			      </div>
 		      </div>
 		    );
 		  }

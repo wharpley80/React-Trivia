@@ -72,7 +72,7 @@ export default function() {
 	  },
 	  {
 	    answer: "Wyoming",
-	    question: "The iconic Christ the Redeemer Statue is located in what country?",
+	    question: "The Christ the Redeemer Statue is located in what country?",
 	    img: "http://easylistmaker.com/trivia-img/devils-tower.jpg",
 	    option_1: "Montana",
 	    option_2: "Colorado",

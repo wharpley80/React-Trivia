@@ -37,12 +37,12 @@ export default function() {
 	    id: "4"
 	  },
 	  {
-	    answer: "biochemist",
+	    answer: "Biochemist",
 	    question: "Nicolas Cage's character has this profession in the movie The Rock?",
-	    option_1: "biochemist",
-	    option_2: "police officer",
-	    option_3: "paramedic",
-	    option_4: "taxi driver",
+	    option_1: "Biochemist",
+	    option_2: "Police Officer",
+	    option_3: "Paramedic",
+	    option_4: "Taxi Driver",
 	    id: "5"
 	  },
 	  {
@@ -65,7 +65,7 @@ export default function() {
 	  },
 	  {
 	    answer: "Code Red",
-	    question: "Col. Nathan R. Jessup (Jack Nicholson) ordered this in A Few Good Men?",
+	    question: "Col. Nathan R. Jessup ordered this in A Few Good Men?",
 	    option_1: "Pizza",
 	    option_2: "Code Red",
 	    option_3: "Nuclear Launch",
@@ -110,7 +110,7 @@ export default function() {
 	  },
 	  {
 	    answer: "Hans",
-	    question: "The villan that Alan Rickman portrays in the original Die Hard?",
+	    question: "The villain that Alan Rickman portrays in the original Die Hard?",
 	    option_1: "Albert",
 	    option_2: "Ivan",
 	    option_3: "Satan",
@@ -179,6 +179,132 @@ export default function() {
 	    option_3: "Joe Pesci",
 	    option_4: "Ray Liotta",
 	    id: "20"
+	  },
+	  {
+	    answer: "Robert De Niro",
+	    question: "This actor plays the iconic mobster James Conway in Goodfellas?",
+	    option_1: "Al Pacino",
+	    option_2: "Ray Liotta",
+	    option_3: "Joe Pesci",
+	    option_4: "Robert De Niro",
+	    id: "21"
+	  },
+	  {
+	    answer: "Liam Neeson",
+	    question: "The voice of Good Cop/Bad Cop in The Lego Movie?",
+	    option_1: "Will Ferrell",
+	    option_2: "Liam Neeson",
+	    option_3: "Will Arnett",
+	    option_4: "Chris Pratt",
+	    id: "22"
+	  },
+	  {
+	    answer: "The Lego Movie",
+	    question: "If you've heard the song 'Everything is Awesome', then you've seen this movie?",
+	    option_1: "Wreck-It Ralph",
+	    option_2: "Big Hero 6",
+	    option_3: "Despicable Me",
+	    option_4: "The Lego Movie",
+	    id: "23"
+	  },
+	  {
+	    answer: "Vector",
+	    question: "Jason Segal voices this villain in Despicable Me?",
+	    option_1: "Vector",
+	    option_2: "Dr. Nefario",
+	    option_3: "Mr. Perkins",
+	    option_4: "Paul",
+	    id: "24"
+	  },
+	  {
+	    answer: "Julie Andrews",
+	    question: "This actress played Mary Poppins?",
+	    option_1: "Audrey Hepburn",
+	    option_2: "Julie Andrews",
+	    option_3: "Carol Burnett",
+	    option_4: "Glynis Johns",
+	    id: "25"
+	  },
+	  {
+	    answer: "Marlon Brando",
+	    question: "This actor played Don Vito Corleone in the original Godfather in 1972?",
+	    option_1: "Al Pacino",
+	    option_2: "James Caan",
+	    option_3: "Marlon Brando",
+	    option_4: "Robert De Niro",
+	    id: "26"
+	  },
+	  {
+	    answer: "Robert Duvall",
+	    question: "Secondhand Lions stared 2 old men, Michael Caine and ?",
+	    option_1: "Walter Matthau",
+	    option_2: "Jack Lemmon",
+	    option_3: "James Garner",
+	    option_4: "Robert Duvall",
+	    id: "27"
+	  },
+	  {
+	    answer: "12 Monkeys",
+	    question: "Bruce Willis played a time traveling criminal in what movie?",
+	    option_1: "Timecop",
+	    option_2: "Die Hard",
+	    option_3: "Fifth Element",
+	    option_4: "12 Monkeys",
+	    id: "28"
+	  },
+	  {
+	    answer: "feet",
+	    question: "Charlie Chaplin insured which part of his body?",
+	    option_1: "hands",
+	    option_2: "feet",
+	    option_3: "mustache",
+	    option_4: "knees",
+	    id: "29"
+	  },
+	  {
+	    answer: "oscars",
+	    question: "What did Maron Brando and George C Scott both refuse?",
+	    option_1: "room service",
+	    option_2: "stunt doubles",
+	    option_3: "money",
+	    option_4: "oscars",
+	    id: "30"
+	  },
+	  {
+	    answer: "James Bond",
+	    question: "What famous role did both Cary Grant and Noel Coward reject?",
+	    option_1: "James Bond",
+	    option_2: "The Godfather",
+	    option_3: "Dirty Harry",
+	    option_4: "Atticus Finch",
+	    id: "31"
+	  },
+	  {
+	    answer: "Risky Business",
+	    question: "What was Tom Cruise's 1st box office film?",
+	    option_1: "Top Gun",
+	    option_2: "The Outsiders",
+	    option_3: "Risky Business",
+	    option_4: "All the Right Moves",
+	    id: "32"
+	  },
+	  {
+	    answer: "Reservoir Dogs",
+	    question: "Quentin Tarantino had his directorial debut with what film?",
+	    option_1: "Reservoir Dogs",
+	    option_2: "Pulp Fiction",
+	    option_3: "Desparado",
+	    option_4: "Jackie Brown",
+	    id: "33"
+	  },
+	  {
+	    answer: "Reservoir Dogs",
+	    question: "Quentin Tarantino had his directorial debut with what film?",
+	    option_1: "Reservoir Dogs",
+	    option_2: "Pulp Fiction",
+	    option_3: "Desparado",
+	    option_4: "Jackie Brown",
+	    id: "34"
 	  }
 	];
 }

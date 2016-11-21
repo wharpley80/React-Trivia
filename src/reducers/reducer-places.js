@@ -72,7 +72,7 @@ export default function() {
 	  },
 	  {
 	    answer: "Wyoming",
-	    question: "The Christ the Redeemer Statue is located in what country?",
+	    question: "Devils Tower is located in which state?",
 	    img: "http://easylistmaker.com/trivia-img/devils-tower.jpg",
 	    option_1: "Montana",
 	    option_2: "Colorado",
@@ -189,6 +189,306 @@ export default function() {
 	    option_3: "Wyoming",
 	    option_4: "Arizona",
 	    id: "19"
+	  },
+	  {
+	    answer: "Boston",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/boston-skyline.jpg",
+	    option_1: "Boston",
+	    option_2: "New York",
+	    option_3: "Chicago",
+	    option_4: "Cleveland",
+	    id: "20"
+	  },
+	  {
+	    answer: "Boston",
+	    question: "Bunker Hill Bridge is located in which US city?",
+	    img: "http://easylistmaker.com/trivia-img/bunker-hill-bridge.jpg",
+	    option_1: "Boston",
+	    option_2: "New York",
+	    option_3: "Chicago",
+	    option_4: "Cleveland",
+	    id: "21"
+	  },
+	  {
+	    answer: "Cincinnati",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/cinncinati-skyline.jpg",
+	    option_1: "Kansas City",
+	    option_2: "Cincinnati",
+	    option_3: "Chicago",
+	    option_4: "Cleveland",
+	    id: "22"
+	  },
+	  {
+	    answer: "Cleveland",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/cleveland-skyline.jpg",
+	    option_1: "Kansas City",
+	    option_2: "Cincinnati",
+	    option_3: "Chicago",
+	    option_4: "Cleveland",
+	    id: "23"
+	  },
+	  {
+	    answer: "Crater Lake NP",
+	    question: "Name this National Park located in Oregon?",
+	    img: "http://easylistmaker.com/trivia-img/crater-lake.jpeg",
+	    option_1: "Glacier NP",
+	    option_2: "Crater Lake NP",
+	    option_3: "Yosemite NP",
+	    option_4: "Yellowstone NP",
+	    id: "24"
+	  },
+	  {
+	    answer: "Dallas",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/dallas-skyline.jpg",
+	    option_1: "Houston",
+	    option_2: "Dallas",
+	    option_3: "Denver",
+	    option_4: "Atlanta",
+	    id: "25"
+	  },
+	  {
+	    answer: "Denver",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/denver-skyline.jpg",
+	    option_1: "Los Angeles",
+	    option_2: "Dallas",
+	    option_3: "Denver",
+	    option_4: "Atlanta",
+	    id: "26"
+	  },
+	  {
+	    answer: "Easter Island",
+	    question: "Where can you find these Moai statues?",
+	    img: "http://easylistmaker.com/trivia-img/easter-island.jpg",
+	    option_1: "Brazil",
+	    option_2: "Mexico",
+	    option_3: "Easter Island",
+	    option_4: "Peru",
+	    id: "27"
+	  },
+	  {
+	    answer: "Glacier NP",
+	    question: "Name this National Park located in Montana?",
+	    img: "http://easylistmaker.com/trivia-img/glacier-np.jpg",
+	    option_1: "Yosemite NP",
+	    option_2: "North Cascades NP",
+	    option_3: "Crater Lake NP",
+	    option_4: "Glacier NP",
+	    id: "28"
+	  },
+	  {
+	    answer: "Houston",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/houston-skyline.jpg",
+	    option_1: "Cleveland",
+	    option_2: "Denver",
+	    option_3: "Houston",
+	    option_4: "Atlanta",
+	    id: "29"
+	  },
+	  {
+	    answer: "Jacksonville",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/jacksonville-skyline.jpg",
+	    option_1: "Jacksonville",
+	    option_2: "Chicago",
+	    option_3: "Dallas",
+	    option_4: "Atlanta",
+	    id: "30"
+	  },
+	  {
+	    answer: "Kansas City",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/kansascity-skyline.jpg",
+	    option_1: "Jacksonville",
+	    option_2: "Kansas City",
+	    option_3: "Dallas",
+	    option_4: "Atlanta",
+	    id: "31"
+	  },
+	  {
+	    answer: "Los Angeles",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/la-skyline.jpeg",
+	    option_1: "Denver",
+	    option_2: "Kansas City",
+	    option_3: "Los Angeles",
+	    option_4: "San Francisco",
+	    id: "32"
+	  },
+	  {
+	    answer: "Lake Tahoe",
+	    question: "Name this famous US Lake?",
+	    img: "http://easylistmaker.com/trivia-img/lake-tahoe.jpg",
+	    option_1: "Yellowstone Lake",
+	    option_2: "Lake Tahoe",
+	    option_3: "Jackson Lake",
+	    option_4: "Lake Erie",
+	    id: "33"
+	  },
+	  {
+	    answer: "London",
+	    question: "Tower Bridge is located in what European city?",
+	    img: "http://easylistmaker.com/trivia-img/london-bridge.jpg",
+	    option_1: "Vienna",
+	    option_2: "Berlin",
+	    option_3: "Paris",
+	    option_4: "London",
+	    id: "34"
+	  },
+	  {
+	    answer: "Memphis",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/memphis-skyline.jpg",
+	    option_1: "Memphis",
+	    option_2: "Kansas City",
+	    option_3: "Los Angeles",
+	    option_4: "Cleveland",
+	    id: "35"
+	  },
+	  {
+	    answer: "Miami",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/miami-skyline.JPG",
+	    option_1: "San Diego",
+	    option_2: "Miami",
+	    option_3: "Los Angeles",
+	    option_4: "Cleveland",
+	    id: "36"
+	  },
+	  {
+	    answer: "Minneapolis",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/minniapolis-skyline.jpg",
+	    option_1: "San Diego",
+	    option_2: "Memphis",
+	    option_3: "Minneapolis",
+	    option_4: "Cleveland",
+	    id: "37"
+	  },
+	  {
+	    answer: "Panama City",
+	    question: "Name the city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/panama-city-skyline.jpg",
+	    option_1: "London",
+	    option_2: "Paris",
+	    option_3: "Mexico City",
+	    option_4: "Panama City",
+	    id: "38"
+	  },
+	  {
+	    answer: "Philadelphia",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/philadelphia-skyline.jpg",
+	    option_1: "Denver",
+	    option_2: "Los Angeles",
+	    option_3: "Philadelphia",
+	    option_4: "Pittsburgh",
+	    id: "39"
+	  },
+	  {
+	    answer: "Philadelphia",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/pittsburgh-skyline.JPG",
+	    option_1: "Cleveland",
+	    option_2: "Boston",
+	    option_3: "Philadelphia",
+	    option_4: "Pittsburgh",
+	    id: "40"
+	  },
+	  {
+	    answer: "Rome",
+	    question: "The Colosseum is in what European city?",
+	    img: "http://easylistmaker.com/trivia-img/rome-col.jpg",
+	    option_1: "Venice",
+	    option_2: "Berlin",
+	    option_3: "London",
+	    option_4: "Rome",
+	    id: "41"
+	  },
+	  {
+	    answer: "Cleveland",
+	    question: "The Rock and Roll Hall of Fame is in what US city?",
+	    img: "http://easylistmaker.com/trivia-img/rrhof.jpg",
+	    option_1: "Memphis",
+	    option_2: "New York",
+	    option_3: "Cleveland",
+	    option_4: "San Francisco",
+	    id: "42"
+	  },
+	  {
+	    answer: "San Diego",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/sandiego.jpg",
+	    option_1: "Miami",
+	    option_2: "New York",
+	    option_3: "Cleveland",
+	    option_4: "San Diego",
+	    id: "43"
+	  },
+	  {
+	    answer: "San Francisco",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/sanfrancisco.jpg",
+	    option_1: "Pittsburgh",
+	    option_2: "New York",
+	    option_3: "San Francisco",
+	    option_4: "San Diego",
+	    id: "44"
+	  },
+	  {
+	    answer: "Seattle",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/seattle.jpg",
+	    option_1: "Seattle",
+	    option_2: "New York",
+	    option_3: "San Francisco",
+	    option_4: "San Diego",
+	    id: "45"
+	  },
+	  {
+	    answer: "New Jersey",
+	    question: "The Statue of Liberty is on New York land, but lays in this states waters?",
+	    img: "http://easylistmaker.com/trivia-img/statue-of-liberty.jpg",
+	    option_1: "New Jersey",
+	    option_2: "Maine",
+	    option_3: "Delaware",
+	    option_4: "Massachusetts",
+	    id: "46"
+	  },
+	  {
+	    answer: "St Louis",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/stlouis-skyline.jpg",
+	    option_1: "Seattle",
+	    option_2: "Denver",
+	    option_3: "St Louis",
+	    option_4: "Kansas City",
+	    id: "47"
+	  },
+	  {
+	    answer: "India",
+	    question: "The Taj Mahal is located in what country?",
+	    img: "http://easylistmaker.com/trivia-img/taj-mahal.jpg",
+	    option_1: "Saudi Arabia",
+	    option_2: "Japan",
+	    option_3: "China",
+	    option_4: "India",
+	    id: "48"
+	  },
+	  {
+	    answer: "Tampa",
+	    question: "Name the US city skyline?",
+	    img: "http://easylistmaker.com/trivia-img/tampa-skyline.jpg",
+	    option_1: "Tampa",
+	    option_2: "Cleveland",
+	    option_3: "San Diego",
+	    option_4: "Seattle",
+	    id: "49"
 	  }
 	];
 }

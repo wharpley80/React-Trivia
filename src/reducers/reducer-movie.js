@@ -298,13 +298,157 @@ export default function() {
 	    id: "33"
 	  },
 	  {
-	    answer: "Reservoir Dogs",
-	    question: "Quentin Tarantino had his directorial debut with what film?",
-	    option_1: "Reservoir Dogs",
-	    option_2: "Pulp Fiction",
-	    option_3: "Desparado",
-	    option_4: "Jackie Brown",
+	    answer: "Henry",
+	    question: "What is Indiana Jones first name?",
+	    option_1: "Paul",
+	    option_2: "Christopher",
+	    option_3: "George",
+	    option_4: "Henry",
 	    id: "34"
+	  },
+	  {
+	    answer: "John Carpenter",
+	    question: "Who directed the Halloween series of films?",
+	    option_1: "Wes Craven",
+	    option_2: "John Carpenter",
+	    option_3: "Alfred Hitchcock",
+	    option_4: "Tobe Hooper",
+	    id: "35"
+	  },
+	  {
+	    answer: "Wes Craven",
+	    question: "Who directed the Nighmare on Elm Street series of films?",
+	    option_1: "Wes Craven",
+	    option_2: "John Carpenter",
+	    option_3: "Alfred Hitchcock",
+	    option_4: "Tobe Hooper",
+	    id: "36"
+	  },
+	  {
+	    answer: "Wes Craven",
+	    question: "Who directed the Nighmare on Elm Street series of films?",
+	    option_1: "Wes Craven",
+	    option_2: "John Carpenter",
+	    option_3: "Alfred Hitchcock",
+	    option_4: "Tobe Hooper",
+	    id: "37"
+	  },
+	  {
+	    answer: "8",
+	    question: "How many total films are there in the Nighmare on Elm Street series?",
+	    option_1: "5",
+	    option_2: "6",
+	    option_3: "7",
+	    option_4: "8",
+	    id: "38"
+	  },
+	  {
+	    answer: "Uncle Rico",
+	    question: "Napolean Dynamite's uncle was played by Jon Gries with the character name of?",
+	    option_1: "Uncle Jorge",
+	    option_2: "Uncle Pedro",
+	    option_3: "Uncle Rico",
+	    option_4: "Uncle John",
+	    id: "39"
+	  },
+	  {
+	    answer: "Dirty Harry Callahan",
+	    question: "Frank Sinatra, John Wayne, and Paul Newman all rejected which role?",
+	    option_1: "The Godfather",
+	    option_2: "Dirty Harry Callahan",
+	    option_3: "James Bond",
+	    option_4: "Santa Claus",
+	    id: "40"
+	  },
+	  {
+	    answer: "Enter the Dragon",
+	    question: "What was Bruce Lee's first Hollywood produced film?",
+	    option_1: "Enter the Dragon",
+	    option_2: "The Big Boss",
+	    option_3: "The Chinese Connection",
+	    option_4: "The Way of the Dragon",
+	    id: "41"
+	  },
+	  {
+	    answer: "The Way of the Dragon",
+	    question: "In what Bruce Lee film did he square off against Chuck Norris?",
+	    option_1: "Enter the Dragon",
+	    option_2: "The Big Boss",
+	    option_3: "The Chinese Connection",
+	    option_4: "The Way of the Dragon",
+	    id: "42"
+	  },
+	  {
+	    answer: "Game of Death",
+	    question: "Bruce Lee never finished this film, which was to feature Kareem Abdul-Jabbar?",
+	    option_1: "Enter the Dragon",
+	    option_2: "The Big Boss",
+	    option_3: "Game of Death",
+	    option_4: "The Way of the Dragon",
+	    id: "43"
+	  },
+	  {
+	    answer: "Bill Murray",
+	    question: "This actor played Dr. Peter Venkman in the original Ghostbusters?",
+	    option_1: "Dan Aykroyd",
+	    option_2: "Harold Ramis",
+	    option_3: "Bill Murray",
+	    option_4: "Rick Moranis",
+	    id: "44"
+	  },
+	  {
+	    answer: "Harold Ramis",
+	    question: "This actor played Dr. Egon Spengler in the original Ghostbusters?",
+	    option_1: "Dan Aykroyd",
+	    option_2: "Harold Ramis",
+	    option_3: "Bill Murray",
+	    option_4: "Rick Moranis",
+	    id: "45"
+	  },
+	  {
+	    answer: "Ethan Hunt",
+	    question: "Tom Cruise's character name in the Mission Impossible film series?",
+	    option_1: "Cole Trickle",
+	    option_2: "Roy Miller",
+	    option_3: "Jack Reacher",
+	    option_4: "Ethan Hunt",
+	    id: "46"
+	  },
+	  {
+	    answer: "Michael Keaton",
+	    question: "This actor played Batman in Tim Burton's 1989 Batman?",
+	    option_1: "Christian Bale",
+	    option_2: "Michael Keaton",
+	    option_3: "Adam West",
+	    option_4: "Val Kilmer",
+	    id: "47"
+	  },
+	  {
+	    answer: "Gina",
+	    question: "Tony Montana has a sister in the movie Scarface with this name?",
+	    option_1: "Maria",
+	    option_2: "Christina",
+	    option_3: "Gina",
+	    option_4: "Sarah",
+	    id: "48"
+	  },
+	  {
+	    answer: "Scarface",
+	    question: "Al Pacino plays the role of Tony Montana in this film?",
+	    option_1: "Scarface",
+	    option_2: "The Godfather",
+	    option_3: "Taxi Driver",
+	    option_4: "Heat",
+	    id: "49"
+	  },
+	  {
+	    answer: "Lefty",
+	    question: "In Donnie Brasco, Johnny Depp's character befriends Al Pacino's character named?",
+	    option_1: "Scarface",
+	    option_2: "Lefty",
+	    option_3: "Tony Montana",
+	    option_4: "Sonny",
+	    id: "50"
 	  }
 	];
 }

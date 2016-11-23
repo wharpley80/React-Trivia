@@ -235,12 +235,12 @@ export default function() {
 	    id: "26"
 	  },
 	  {
-	    answer: "Bo Jackson",
+	    answer: "Bo Jackson, AUB",
 	    question: "This SEC running back won the 1985 Heisman Trophy?",
-	    option_1: "Hershel Walker",
-	    option_2: "Bo Jackson",
-	    option_3: "Marcus Allen",
-	    option_4: "Barry Sanders",
+	    option_1: "Hershel Walker, UGA",
+	    option_2: "Bo Jackson, AUB",
+	    option_3: "Marcus Allen, USC",
+	    option_4: "Barry Sanders, OSU",
 	    id: "27"
 	  },
 	  {
@@ -449,6 +449,231 @@ export default function() {
 	    option_3: "Johnny Unitas",
 	    option_4: "John Brodie",
 	    id: "50"
+	  },
+	  {
+	    answer: "Case Keenum, HOU",
+	    question: "Who holds the NCAA record for career passing yards with 19,217?",
+	    option_1: "Timmy Chang, HAW",
+	    option_2: "David Klingler, HOU",
+	    option_3: "Peyton Manning, TEN",
+	    option_4: "Case Keenum, HOU",
+	    id: "51"
+	  },
+	  {
+	    answer: "Kevin Smith, UCF",
+	    question: "Who holds the NCAA record for most rushes in a season with 450?",
+	    option_1: "LaDainian Tomilson, TCU",
+	    option_2: "Ricky Williams, TEX",
+	    option_3: "Kevin Smith, UCF",
+	    option_4: "Hershel Walker, UGA",
+	    id: "52"
+	  },
+	  {
+	    answer: "Ron Dayne, WIS",
+	    question: "Who holds the NCAA record for career rushing yards with 6,397?",
+	    option_1: "LaDainian Tomilson, TCU",
+	    option_2: "Ricky Williams, TEX",
+	    option_3: "DeAngelo Williams, MEM",
+	    option_4: "Ron Dayne, WIS",
+	    id: "53"
+	  },
+	  {
+	    answer: "Barry Sanders, OSU",
+	    question: "Who holds the NCAA record for most rushing yards in a season with 2,628?",
+	    option_1: "LaDainian Tomilson, TCU",
+	    option_2: "Archie Griffin, OSU",
+	    option_3: "Barry Sanders, OSU",
+	    option_4: "Ron Dayne, WIS",
+	    id: "54"
+	  },
+	  {
+	    answer: "Keenan Reynolds, NAVY",
+	    question: "Who holds the NCAA record for career rushing TDs with 88?",
+	    option_1: "Keenan Reynolds, NAVY",
+	    option_2: "Archie Griffin, OSU",
+	    option_3: "Hershel Walker, UGA",
+	    option_4: "Ron Dayne, WIS",
+	    id: "55"
+	  },
+	  {
+	    answer: "Barry Sanders, OSU",
+	    question: "Who holds the NCAA record for most rushing TDs in a season with 37?",
+	    option_1: "Keenan Reynolds, NAVY",
+	    option_2: "Archie Griffin, OSU",
+	    option_3: "Barry Sanders, OSU",
+	    option_4: "Bo Jackson, AUB",
+	    id: "56"
+	  },
+	  {
+	    answer: "BJ Symons, TTU",
+	    question: "Who holds the NCAA record for most passing yards in a season with 5,833?",
+	    option_1: "Connor Halliday, WSU",
+	    option_2: "Case Keenum, HOU",
+	    option_3: "BJ Symons, TTU",
+	    option_4: "Timmy Chang, HAW",
+	    id: "57"
+	  },
+	  {
+	    answer: "Case Keenum, HOU",
+	    question: "Who holds the NCAA record for career passing TDs with 155?",
+	    option_1: "Connor Halliday, WSU",
+	    option_2: "Case Keenum, HOU",
+	    option_3: "Graham Harrell, TTU",
+	    option_4: "Timmy Chang, HAW",
+	    id: "58"
+	  },
+	  {
+	    answer: "Colt Brennan, HAW",
+	    question: "Who holds the NCAA record for most passing TDs in a season with 58?",
+	    option_1: "Connor Halliday, WSU",
+	    option_2: "Case Keenum, HOU",
+	    option_3: "Graham Harrell, TTU",
+	    option_4: "Colt Brennan, HAW",
+	    id: "59"
+	  },
+	  {
+	    answer: "Rakeem Cato, MAR",
+	    question: "Who holds the NCAA record for most consecutive games throwing a TD pass with 46?",
+	    option_1: "Rakeem Cato, MAR",
+	    option_2: "Case Keenum, HOU",
+	    option_3: "Graham Harrell, TTU",
+	    option_4: "Colt Brennan, HAW",
+	    id: "60"
+	  },
+	  {
+	    answer: "Steelers",
+	    question: "This team defeated the Cowboys 21-17 to win Super Bowl 10?",
+	    option_1: "Colts",
+	    option_2: "Steelers",
+	    option_3: "Broncos",
+	    option_4: "Raiders",
+	    id: "61"
+	  },
+	  {
+	    answer: "Bears",
+	    question: "This team defeated the Patriots 46-10 to win Super Bowl 20?",
+	    option_1: "Redskins",
+	    option_2: "Vikings",
+	    option_3: "Bears",
+	    option_4: "49ers",
+	    id: "62"
+	  },
+	  {
+	    answer: "Raiders",
+	    question: "This team defeated the Eagles 46-10 to win Super Bowl 15?",
+	    option_1: "Steelers",
+	    option_2: "Raiders",
+	    option_3: "Broncos",
+	    option_4: "Colts",
+	    id: "63"
+	  },
+	  {
+	    answer: "Broncos",
+	    question: "This team defeated the Panthers 24-10 to win Super Bowl 50?",
+	    option_1: "Steelers",
+	    option_2: "Raiders",
+	    option_3: "Broncos",
+	    option_4: "Colts",
+	    id: "64"
+	  },
+	  {
+	    answer: "Steelers",
+	    question: "This team defeated the Cardinals 27-23 to win Super Bowl 43?",
+	    option_1: "Steelers",
+	    option_2: "Raiders",
+	    option_3: "Broncos",
+	    option_4: "Colts",
+	    id: "65"
+	  },
+	  {
+	    answer: "Saints",
+	    question: "This team defeated the Colts 31-17 to win Super Bowl 44?",
+	    option_1: "49ers",
+	    option_2: "Seahawks",
+	    option_3: "Broncos",
+	    option_4: "Saints",
+	    id: "66"
+	  },
+	  {
+	    answer: "18",
+	    question: "In inches, how big is the diameter of a basketball hoop?",
+	    option_1: "12",
+	    option_2: "18",
+	    option_3: "24",
+	    option_4: "30",
+	    id: "67"
+	  },
+	  {
+	    answer: "Dodgers",
+	    question: "Which was the only team to win two World Series in the 1980s?",
+	    option_1: "Yankees",
+	    option_2: "Dodgers",
+	    option_3: "Athletics",
+	    option_4: "Mets",
+	    id: "68"
+	  },
+	  {
+	    answer: "0",
+	    question: "How many home runs did Ty Cobb hit in the 3 World Series in which he played?",
+	    option_1: "0",
+	    option_2: "3",
+	    option_3: "5",
+	    option_4: "7",
+	    id: "69"
+	  },
+	  {
+	    answer: "Dodgers",
+	    question: "After retiring as a player, with which team did Babe Ruth spend 1 year as a coach?",
+	    option_1: "Yankees",
+	    option_2: "Dodgers",
+	    option_3: "Red Sox",
+	    option_4: "Giants",
+	    id: "70"
+	  },
+	  {
+	    answer: "Slam Dunk",
+	    question: "What was banned in the NBA from 1967 to 1976?",
+	    option_1: "Steroids",
+	    option_2: "Free Throws",
+	    option_3: "3 Pointer",
+	    option_4: "Slam Dunk",
+	    id: "71"
+	  },
+	  {
+	    answer: "10",
+	    question: "In feet, how high is a NBA basketball hoop?",
+	    option_1: "8",
+	    option_2: "9",
+	    option_3: "10",
+	    option_4: "11",
+	    id: "72"
+	  },
+	  {
+	    answer: "Baseball",
+	    question: "Name the only major team sport in the USA with no game clock?",
+	    option_1: "Basketball",
+	    option_2: "Football",
+	    option_3: "Baseball",
+	    option_4: "Boxing",
+	    id: "73"
+	  },
+	  {
+	    answer: "Steelers",
+	    question: "Which NFL team won 3 Super Bowls during the 70's?",
+	    option_1: "49ers",
+	    option_2: "Steelers",
+	    option_3: "Cowboys",
+	    option_4: "Packers",
+	    id: "74"
+	  },
+	  {
+	    answer: "49ers",
+	    question: "Which NFL team won 3 Super Bowls during the 80's?",
+	    option_1: "49ers",
+	    option_2: "Steelers",
+	    option_3: "Cowboys",
+	    option_4: "Giants",
+	    id: "75"
 	  }
 	];
 }

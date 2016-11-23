@@ -443,7 +443,7 @@ export default function() {
 	  {
 	    answer: "Seattle",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/seattle.jpg",
+	    img: "http://easylistmaker.com/trivia-img/seattle-skyline.jpg",
 	    option_1: "Seattle",
 	    option_2: "New York",
 	    option_3: "San Francisco",

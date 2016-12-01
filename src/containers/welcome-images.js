@@ -23,9 +23,9 @@ class WelcomeImages extends Component {
 		  },
 
 		  componentWillMount: function() {
-        setTimeout(this.onTick, 2000); 
-        setTimeout(this.onTicker, 4000);
-        setTimeout(this.onTicked, 6000); 
+        setTimeout(this.onTick, 1000); 
+        setTimeout(this.onTicker, 2000);
+        setTimeout(this.onTicked, 3000); 
 		  },
 
 		  onTick: function() {

@@ -10,7 +10,8 @@ import allReducers from './reducers';
 
 const middleware = applyMiddleware(logger());
 
-const store = createStore(allReducers, middleware);
+const store = createStore(allReducers, middleware, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+//const store = createStore(allReducers, middleware);
 
 // CSS
 import './css/style.scss';

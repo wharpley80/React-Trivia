@@ -3,7 +3,7 @@ export default function() {
 		{
 	    answer: "San Francisco",
 	    question: "What city is this bridge located?",
-	    img: "http://easylistmaker.com/trivia-img/golden-gate-bridge.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/golden-gate-bridge.jpg",
 	    option_1: "Seattle",
 	    option_2: "San Diego",
 	    option_3: "San Francisco",
@@ -13,7 +13,7 @@ export default function() {
 	  {
 	    answer: "Chicago",
 	    question: "In what city is The Bean(Cloud Gate) located?",
-	    img: "http://easylistmaker.com/trivia-img/chicago-bean.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/chicago-bean.jpg",
 	    option_1: "San Francisco",
 	    option_2: "Chicago",
 	    option_3: "New York",
@@ -23,7 +23,7 @@ export default function() {
 	  {
 	    answer: "Paris",
 	    question: "In what city is the Eiffel Tower located?",
-	    img: "http://easylistmaker.com/trivia-img/eiffel-tower.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/eiffel-tower.jpg",
 	    option_1: "Paris",
 	    option_2: "Vienna",
 	    option_3: "Normandy",
@@ -33,7 +33,7 @@ export default function() {
 	  {
 	    answer: "Capitol Building",
 	    question: "Name the building pictured below?",
-	    img: "http://easylistmaker.com/trivia-img/capitol-building.jpeg",
+	    img: "http://williamharpleydev.com/trivia-img/capitol-building.jpeg",
 	    option_1: "Pentagon",
 	    option_2: "White House",
 	    option_3: "Capitol Building",
@@ -43,7 +43,7 @@ export default function() {
 	  {
 	    answer: "Arches NP",
 	    question: "What's the name of this National Park?",
-	    img: "http://easylistmaker.com/trivia-img/arches-np.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/arches-np.jpg",
 	    option_1: "Zion NP",
 	    option_2: "Bryce Canyon NP",
 	    option_3: "Arches NP",
@@ -53,7 +53,7 @@ export default function() {
 	  {
 	    answer: "Scotland",
 	    question: "The Forth Bridge is located in what country?",
-	    img: "http://easylistmaker.com/trivia-img/cantilever-bridge.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/cantilever-bridge.jpg",
 	    option_1: "Scotland",
 	    option_2: "Norway",
 	    option_3: "England",
@@ -63,7 +63,7 @@ export default function() {
 	  {
 	    answer: "Brazil",
 	    question: "The iconic Christ the Redeemer Statue is located in what country?",
-	    img: "http://easylistmaker.com/trivia-img/christ-the-redeemer.jpeg",
+	    img: "http://williamharpleydev.com/trivia-img/christ-the-redeemer.jpeg",
 	    option_1: "Brazil",
 	    option_2: "Peru",
 	    option_3: "Argentina",
@@ -73,7 +73,7 @@ export default function() {
 	  {
 	    answer: "Wyoming",
 	    question: "Devils Tower is located in which state?",
-	    img: "http://easylistmaker.com/trivia-img/devils-tower.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/devils-tower.jpg",
 	    option_1: "Montana",
 	    option_2: "Colorado",
 	    option_3: "South Dakota",
@@ -83,7 +83,7 @@ export default function() {
 	  {
 	    answer: "Nevada",
 	    question: "Fly Ranch Geyser is located in what state?",
-	    img: "http://easylistmaker.com/trivia-img/fly-ranch-geysers.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/fly-ranch-geysers.jpg",
 	    option_1: "California",
 	    option_2: "Oregon",
 	    option_3: "Nevada",
@@ -93,7 +93,7 @@ export default function() {
 	  {
 	    answer: "Yosemite NP",
 	    question: "Half Dome is located in which National Park?",
-	    img: "http://easylistmaker.com/trivia-img/half-dome.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/half-dome.jpg",
 	    option_1: "Yellowstone NP",
 	    option_2: "Yosemite NP",
 	    option_3: "Zion NP",
@@ -103,7 +103,7 @@ export default function() {
 	  {
 	    answer: "Amsterdam",
 	    question: "The Heerema Bridge is located in what country?",
-	    img: "http://easylistmaker.com/trivia-img/heerema-bridge.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/heerema-bridge.jpg",
 	    option_1: "Amsterdam",
 	    option_2: "England",
 	    option_3: "Scotland",
@@ -113,7 +113,7 @@ export default function() {
 	  {
 	    answer: "South Dakota",
 	    question: "Mt Rushmore is located in which state?",
-	    img: "http://easylistmaker.com/trivia-img/mount-rushmore.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/mount-rushmore.jpg",
 	    option_1: "Montana",
 	    option_2: "Wyoming",
 	    option_3: "South Dakota",
@@ -123,7 +123,7 @@ export default function() {
 	  {
 	    answer: "Virginia",
 	    question: "The Pentagon building is located in which state?",
-	    img: "http://easylistmaker.com/trivia-img/pentagon.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/pentagon.jpg",
 	    option_1: "Maryland",
 	    option_2: "Virginia",
 	    option_3: "Kentucky",
@@ -133,7 +133,7 @@ export default function() {
 	  {
 	    answer: "China",
 	    question: "The Shenyang Hun River Ribbon Bridge is located in which country?",
-	    img: "http://easylistmaker.com/trivia-img/shenyang-hun-river-ribbon-bridge.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/shenyang-hun-river-ribbon-bridge.jpg",
 	    option_1: "Japan",
 	    option_2: "North Korea",
 	    option_3: "China",
@@ -143,7 +143,7 @@ export default function() {
 	  {
 	    answer: "England",
 	    question: "The Infinity Bridge is located in which country?",
-	    img: "http://easylistmaker.com/trivia-img/stockton-infinity.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/stockton-infinity.jpg",
 	    option_1: "Scotland",
 	    option_2: "Amsterdam",
 	    option_3: "France",
@@ -153,7 +153,7 @@ export default function() {
 	  {
 	    answer: "England",
 	    question: "Stonehenge is located in which country?",
-	    img: "http://easylistmaker.com/trivia-img/stonehenge.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/stonehenge.jpg",
 	    option_1: "England",
 	    option_2: "Ireland",
 	    option_3: "Greenland",
@@ -163,7 +163,7 @@ export default function() {
 	  {
 	    answer: "Arkansas",
 	    question: "Whitaker Point is a lookout point located in which state?",
-	    img: "http://easylistmaker.com/trivia-img/whitaker-point.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/whitaker-point.jpg",
 	    option_1: "Kentucky",
 	    option_2: "Arkansas",
 	    option_3: "Tennessee",
@@ -173,7 +173,7 @@ export default function() {
 	  {
 	    answer: "Yellowstone NP",
 	    question: "What's the name of this National Park?",
-	    img: "http://easylistmaker.com/trivia-img/yellowstone-np.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/yellowstone-np.jpg",
 	    option_1: "Glacier NP",
 	    option_2: "Bryce Canyon NP",
 	    option_3: "Yosemite NP",
@@ -183,7 +183,7 @@ export default function() {
 	  {
 	    answer: "California",
 	    question: "In which state is Yosemite National Park located?",
-	    img: "http://easylistmaker.com/trivia-img/yosemite-valley.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/yosemite-valley.jpg",
 	    option_1: "California",
 	    option_2: "Oregon",
 	    option_3: "Wyoming",
@@ -193,7 +193,7 @@ export default function() {
 	  {
 	    answer: "Boston",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/boston-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/boston-skyline.jpg",
 	    option_1: "Boston",
 	    option_2: "New York",
 	    option_3: "Chicago",
@@ -203,7 +203,7 @@ export default function() {
 	  {
 	    answer: "Boston",
 	    question: "Bunker Hill Bridge is located in which US city?",
-	    img: "http://easylistmaker.com/trivia-img/bunker-hill-bridge.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/bunker-hill-bridge.jpg",
 	    option_1: "Boston",
 	    option_2: "New York",
 	    option_3: "Chicago",
@@ -213,7 +213,7 @@ export default function() {
 	  {
 	    answer: "Cincinnati",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/cinncinati-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/cinncinati-skyline.jpg",
 	    option_1: "Kansas City",
 	    option_2: "Cincinnati",
 	    option_3: "Chicago",
@@ -223,7 +223,7 @@ export default function() {
 	  {
 	    answer: "Cleveland",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/cleveland-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/cleveland-skyline.jpg",
 	    option_1: "Kansas City",
 	    option_2: "Cincinnati",
 	    option_3: "Chicago",
@@ -233,7 +233,7 @@ export default function() {
 	  {
 	    answer: "Crater Lake NP",
 	    question: "Name this National Park located in Oregon?",
-	    img: "http://easylistmaker.com/trivia-img/crater-lake.jpeg",
+	    img: "http://williamharpleydev.com/trivia-img/crater-lake.jpeg",
 	    option_1: "Glacier NP",
 	    option_2: "Crater Lake NP",
 	    option_3: "Yosemite NP",
@@ -243,7 +243,7 @@ export default function() {
 	  {
 	    answer: "Dallas",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/dallas-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/dallas-skyline.jpg",
 	    option_1: "Houston",
 	    option_2: "Dallas",
 	    option_3: "Denver",
@@ -253,7 +253,7 @@ export default function() {
 	  {
 	    answer: "Denver",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/denver-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/denver-skyline.jpg",
 	    option_1: "Los Angeles",
 	    option_2: "Dallas",
 	    option_3: "Denver",
@@ -263,7 +263,7 @@ export default function() {
 	  {
 	    answer: "Easter Island",
 	    question: "Where can you find these Moai statues?",
-	    img: "http://easylistmaker.com/trivia-img/easter-island.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/easter-island.jpg",
 	    option_1: "Brazil",
 	    option_2: "Mexico",
 	    option_3: "Easter Island",
@@ -273,7 +273,7 @@ export default function() {
 	  {
 	    answer: "Glacier NP",
 	    question: "Name this National Park located in Montana?",
-	    img: "http://easylistmaker.com/trivia-img/glacier-np.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/glacier-np.jpg",
 	    option_1: "Yosemite NP",
 	    option_2: "North Cascades NP",
 	    option_3: "Crater Lake NP",
@@ -283,7 +283,7 @@ export default function() {
 	  {
 	    answer: "Houston",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/houston-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/houston-skyline.jpg",
 	    option_1: "Cleveland",
 	    option_2: "Denver",
 	    option_3: "Houston",
@@ -293,7 +293,7 @@ export default function() {
 	  {
 	    answer: "Jacksonville",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/jacksonville-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/jacksonville-skyline.jpg",
 	    option_1: "Jacksonville",
 	    option_2: "Chicago",
 	    option_3: "Dallas",
@@ -303,7 +303,7 @@ export default function() {
 	  {
 	    answer: "Kansas City",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/kansascity-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/kansascity-skyline.jpg",
 	    option_1: "Jacksonville",
 	    option_2: "Kansas City",
 	    option_3: "Dallas",
@@ -313,7 +313,7 @@ export default function() {
 	  {
 	    answer: "Los Angeles",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/la-skyline.jpeg",
+	    img: "http://williamharpleydev.com/trivia-img/la-skyline.jpeg",
 	    option_1: "Denver",
 	    option_2: "Kansas City",
 	    option_3: "Los Angeles",
@@ -323,7 +323,7 @@ export default function() {
 	  {
 	    answer: "Lake Tahoe",
 	    question: "Name this famous US Lake?",
-	    img: "http://easylistmaker.com/trivia-img/lake-tahoe.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/lake-tahoe.jpg",
 	    option_1: "Yellowstone Lake",
 	    option_2: "Lake Tahoe",
 	    option_3: "Jackson Lake",
@@ -333,7 +333,7 @@ export default function() {
 	  {
 	    answer: "London",
 	    question: "Tower Bridge is located in what European city?",
-	    img: "http://easylistmaker.com/trivia-img/london-bridge.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/london-bridge.jpg",
 	    option_1: "Vienna",
 	    option_2: "Berlin",
 	    option_3: "Paris",
@@ -343,7 +343,7 @@ export default function() {
 	  {
 	    answer: "Memphis",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/memphis-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/memphis-skyline.jpg",
 	    option_1: "Memphis",
 	    option_2: "Kansas City",
 	    option_3: "Los Angeles",
@@ -353,7 +353,7 @@ export default function() {
 	  {
 	    answer: "Miami",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/miami-skyline.JPG",
+	    img: "http://williamharpleydev.com/trivia-img/miami-skyline.JPG",
 	    option_1: "San Diego",
 	    option_2: "Miami",
 	    option_3: "Los Angeles",
@@ -363,7 +363,7 @@ export default function() {
 	  {
 	    answer: "Minneapolis",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/minniapolis-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/minniapolis-skyline.jpg",
 	    option_1: "San Diego",
 	    option_2: "Memphis",
 	    option_3: "Minneapolis",
@@ -373,7 +373,7 @@ export default function() {
 	  {
 	    answer: "Panama City",
 	    question: "Name the city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/panama-city-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/panama-city-skyline.jpg",
 	    option_1: "London",
 	    option_2: "Paris",
 	    option_3: "Mexico City",
@@ -383,7 +383,7 @@ export default function() {
 	  {
 	    answer: "Philadelphia",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/philadelphia-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/philadelphia-skyline.jpg",
 	    option_1: "Denver",
 	    option_2: "Los Angeles",
 	    option_3: "Philadelphia",
@@ -393,7 +393,7 @@ export default function() {
 	  {
 	    answer: "Philadelphia",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/pittsburgh-skyline.JPG",
+	    img: "http://williamharpleydev.com/trivia-img/pittsburgh-skyline.JPG",
 	    option_1: "Cleveland",
 	    option_2: "Boston",
 	    option_3: "Philadelphia",
@@ -403,7 +403,7 @@ export default function() {
 	  {
 	    answer: "Rome",
 	    question: "The Colosseum is in what European city?",
-	    img: "http://easylistmaker.com/trivia-img/rome-col.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/rome-col.jpg",
 	    option_1: "Venice",
 	    option_2: "Berlin",
 	    option_3: "London",
@@ -413,7 +413,7 @@ export default function() {
 	  {
 	    answer: "Cleveland",
 	    question: "The Rock and Roll Hall of Fame is in what US city?",
-	    img: "http://easylistmaker.com/trivia-img/rrhof.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/rrhof.jpg",
 	    option_1: "Memphis",
 	    option_2: "New York",
 	    option_3: "Cleveland",
@@ -423,7 +423,7 @@ export default function() {
 	  {
 	    answer: "San Diego",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/sandiego.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/sandiego.jpg",
 	    option_1: "Miami",
 	    option_2: "New York",
 	    option_3: "Cleveland",
@@ -433,7 +433,7 @@ export default function() {
 	  {
 	    answer: "San Francisco",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/sanfrancisco.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/sanfrancisco.jpg",
 	    option_1: "Pittsburgh",
 	    option_2: "New York",
 	    option_3: "San Francisco",
@@ -443,7 +443,7 @@ export default function() {
 	  {
 	    answer: "Seattle",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/seattle-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/seattle-skyline.jpg",
 	    option_1: "Seattle",
 	    option_2: "New York",
 	    option_3: "San Francisco",
@@ -453,7 +453,7 @@ export default function() {
 	  {
 	    answer: "New Jersey",
 	    question: "The Statue of Liberty is on New York land, but lays in this states waters?",
-	    img: "http://easylistmaker.com/trivia-img/statue-of-liberty.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/statue-of-liberty.jpg",
 	    option_1: "New Jersey",
 	    option_2: "Maine",
 	    option_3: "Delaware",
@@ -463,7 +463,7 @@ export default function() {
 	  {
 	    answer: "St Louis",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/stlouis-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/stlouis-skyline.jpg",
 	    option_1: "Seattle",
 	    option_2: "Denver",
 	    option_3: "St Louis",
@@ -473,7 +473,7 @@ export default function() {
 	  {
 	    answer: "India",
 	    question: "The Taj Mahal is located in what country?",
-	    img: "http://easylistmaker.com/trivia-img/taj-mahal.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/taj-mahal.jpg",
 	    option_1: "Saudi Arabia",
 	    option_2: "Japan",
 	    option_3: "China",
@@ -483,7 +483,7 @@ export default function() {
 	  {
 	    answer: "Tampa",
 	    question: "Name the US city skyline?",
-	    img: "http://easylistmaker.com/trivia-img/tampa-skyline.jpg",
+	    img: "http://williamharpleydev.com/trivia-img/tampa-skyline.jpg",
 	    option_1: "Tampa",
 	    option_2: "Cleveland",
 	    option_3: "San Diego",

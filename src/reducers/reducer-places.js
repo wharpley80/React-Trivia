@@ -410,6 +410,7 @@ export default function() {
 	    option_4: "Rome",
 	    id: "41"
 	  },
+	  /*
 	  {
 	    answer: "Cleveland",
 	    question: "The Rock and Roll Hall of Fame is in what US city?",
@@ -420,6 +421,7 @@ export default function() {
 	    option_4: "San Francisco",
 	    id: "42"
 	  },
+	  */
 	  {
 	    answer: "San Diego",
 	    question: "Name the US city skyline?",

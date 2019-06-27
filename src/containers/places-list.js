@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { bindActionCreators } from 'redux';
+//import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import shuffleArray from 'shuffle-array';
 import { selectPlaces } from '../actions/guess-places';

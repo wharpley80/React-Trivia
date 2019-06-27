@@ -5,7 +5,7 @@ import GameRules from '../containers/game-rules';
 import MovieExpire from '../containers/movie-expire';
 import { restartMovie } from '../actions/restart-movie';
 
-import { bindActionCreators } from 'redux';
+//import { bindActionCreators } from 'redux';
 
 class MovieStopwatch extends Component {
 

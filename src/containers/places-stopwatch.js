@@ -4,7 +4,7 @@ import PlacesTrivia from '../containers/places-list';
 import GameRules from '../containers/game-rules';
 import PlacesExpire from '../containers/places-expire';
 import { restartPlaces } from '../actions/restart-places';
-import { bindActionCreators } from 'redux';
+//import { bindActionCreators } from 'redux';
 
 class PlacesStopwatch extends Component {
 

@@ -5,7 +5,7 @@ import SportsTrivia from '../containers/sports-list';
 import GameRules from '../containers/game-rules';
 import SportsExpire from '../containers/sports-expire';
 import { restartSports } from '../actions/restart-sports';
-import { bindActionCreators } from 'redux';
+//import { bindActionCreators } from 'redux';
 
 class SportsStopwatch extends Component {
 

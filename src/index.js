@@ -3,8 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import { applyMiddleware } from 'redux';
+import { createStore } from 'react-redux';
+import { applyMiddleware } from 'react-redux';
 import logger from 'redux-logger';
 import allReducers from './reducers';
 

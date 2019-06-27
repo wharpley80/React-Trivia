@@ -1,4 +1,4 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from 'react-redux';
 import MovieReducer from './reducer-movie';
 import SportsReducer from './reducer-sports';
 import SportsGuessReducer from './reducer-sports-guess';

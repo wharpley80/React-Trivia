@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import { bindActionCreators } from 'redux';
+import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { selectCategory } from '../actions/select-cat';
 import NavLink from '../components/NavLink';
@@ -9,9 +9,9 @@ class Intro extends Component {
 	createSelectedCategory() {
 		return this.props.category.map((category) => {
 			return (
-				<button  key={category.id}
-						onClick={() => this.props.selectCategory(category)}
-						>{category.category}</button>
+				<button key={category.id} onClick={() => this.props.selectCategory(category)}>
+					{category.category}
+				</button>
 			);
 		});
 	}
@@ -23,7 +23,6 @@ class Intro extends Component {
 			</ul>
 		);
 	}
-
 }
 
 function mapStateToProps(state) {

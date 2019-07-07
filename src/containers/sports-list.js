@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import { bindActionCreators } from 'redux';
+import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import shuffleArray from 'shuffle-array';
 import { selectSports } from '../actions/guess-sports';
@@ -9,9 +9,6 @@ class SportsTrivia extends Component {
 	createSportsQuestion() {
 		var size = 1;
 		return this.props.sports.slice(0, size).map((sports) => {
-
-				
-
 			return(
 				<li key={sports.id}>
 					<p className="questions">{ sports.question }</p>

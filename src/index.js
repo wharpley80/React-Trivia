@@ -3,26 +3,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore } from 'react-redux';
-import { applyMiddleware } from 'react-redux';
-import logger from 'redux-logger';
+import { createStore, compose, applyMiddleware } from 'redux';
+import routes from './router';
+import thunk from 'redux-thunk';
 import allReducers from './reducers';
-
-const middleware = applyMiddleware(logger());
-
-const store = createStore(allReducers, middleware, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
-//const store = createStore(allReducers, middleware);
 
 // CSS
 import './css/style.scss';
 
-// Routes
-import routes from './router';
+const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const store = createStore(allReducers, composeEnhancer(applyMiddleware(thunk)));
 
 // Render
 ReactDOM.render(
-  <Provider store={store}>
-  	{routes}
-  </Provider>,
-  document.getElementById('root')
+	<Provider store={store}>
+  		{routes}
+  	</Provider>,
+  	document.getElementById('root')
 );

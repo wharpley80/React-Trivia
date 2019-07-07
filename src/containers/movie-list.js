@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import { bindActionCreators } from 'redux';
+import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import shuffleArray from 'shuffle-array';
 import { selectMovie } from '../actions/guess-movie';
@@ -9,9 +9,6 @@ class MovieTrivia extends Component {
 	createMovieQuestion() {
 		var size = 1;
 		return this.props.movie.slice(0, size).map((movie) => {
-
-				
-
 			return(
 				<li key={ movie.id }>
 					<p className="questions">{ movie.question }</p>
@@ -21,7 +18,6 @@ class MovieTrivia extends Component {
 						<button className="question"><li onClick={() => this.props.selectMovie(movie.option_3, movie.answer)}>{ movie.option_3 }</li></button>
 						<button className="question"><li onClick={() => this.props.selectMovie(movie.option_4, movie.answer)}>{ movie.option_4 }</li></button>
 					</ul>
-					
 				</li>
 			);
 		});

@@ -3,70 +3,70 @@ $secondary-color: #63b8ff;
 $p-fonts: 'Titillium Web','Helvetica Neue','Helvetica','Arial',sans-serif;
 
 @mixin fading_welcome {
-  display: inline;
-  position: absolute;
-  top: 70px;
-  font-size: 20px;
-  font-size: 2.8vw;
+    display: inline;
+    position: absolute;
+    top: 70px;
+    font-size: 20px;
+    font-size: 2.8vw;
 }
 
 @mixin fading_swelcome {
-  top: 90px;
-  font-size: 20px;
-  font-size: 6vw;
+    top: 90px;
+    font-size: 20px;
+    font-size: 6vw;
 }
 
 @mixin my_buttons {
-  padding: 8px 12px;
-  margin: 5px 10px;
-  font-size: .8em;
-  text-transform: uppercase;
-  border-radius: 4px;
-  letter-spacing: .4px;
-  display: inline;
-  background-color: #eaedf1;
-  color: $primary-color;
+    padding: 8px 12px;
+    margin: 5px 10px;
+    font-size: .8em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    letter-spacing: .4px;
+    display: inline;
+    background-color: #eaedf1;
+    color: $primary-color;
 }
 
 @mixin phone_buttons {
-  padding: 4px 6px;
-  margin: 0 10px;
-  font-size: .6em;
-  text-transform: uppercase;
-  border-radius: 4px;
-  letter-spacing: .4px;
-  display: inline;
-  background-color: #eaedf1;
-  color: $primary-color;
+    padding: 4px 6px;
+    margin: 0 10px;
+    font-size: .6em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    letter-spacing: .4px;
+    display: inline;
+    background-color: #eaedf1;
+    color: $primary-color;
 }
 
 @mixin phone_questions {
-  margin: 20px 5px;
-  font-size: .6em;
-  text-transform: uppercase;
-  border-radius: 4px;
-  letter-spacing: .4px;
-  display: block;
-  background-color: #eaedf1;
-  color: $primary-color;
+    margin: 20px 5px;
+    font-size: .6em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    letter-spacing: .4px;
+    display: block;
+    background-color: #eaedf1;
+    color: $primary-color;
 }
 
 html {
 	background: #fafafa;
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  color: $primary-color;
-  margin: 0;
-  height: 100%;
+    color: $primary-color;
+    margin: 0;
+    height: 100%;
 }
 
 header {
-  height: 60px;
-  width: 100%;
-  background-color: #fff;
-  padding-top: 10px;
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 10px;
 }
 
 @media (max-width:640px) {
@@ -84,42 +84,41 @@ a {
 }
 
 #root {
-  margin: 0;
+    margin: 0;
 }
 
 .score-cont {
-  float: right;
-  width: 25%;
+    float: right;
+    width: 25%;
 }
 
 .player-score {
-  display: inline;
+    display: inline;
 }
 
 @media (max-width:640px) {
 
-  .score-cont {
-    float: right;
-    width: 100%;
-  }
+    .score-cont {
+        float: right;
+        width: 100%;
+    }
 
-  .player-score {
-    display: block;
-  }
-
+    .player-score {
+        display: block;
+    }
 }
 
 .container {	
-  text-align: center;
+    text-align: center;
 }
 
 ul {
     padding: 0;
     list-style-type: none;
-  }
+}
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 /************************
@@ -127,80 +126,79 @@ li {
 ************************/
 
 .my-title {
-  color: $secondary-color;
-  display: inline;
-  margin: 20px 0 0 50px;
+    color: $secondary-color;
+    display: inline;
+    margin: 20px 0 0 50px;
 }
 
 .my-title:hover {
-  color: darken($secondary-color, 20%);
+    color: darken($secondary-color, 20%);
 }
 
 .page-title {
-  text-align: center;
-  display: inline;
-  width: 20%;
-  margin-left: 25%;
+    text-align: center;
+    display: inline;
+    width: 20%;
+    margin-left: 25%;
 }
 
 .main-nav {
-  text-align: center; 
-  list-style-type: none;
-  padding-left: 0;
-  margin-right: 100px;
-  float: right;
+    text-align: center; 
+    list-style-type: none;
+    padding-left: 0;
+    margin-right: 100px;
+    float: right;
 }
 
 @media (max-width:640px) {
 
-  .my-title {
-    text-align: center;
-    display: block;
-    margin-left: 0;
-    margin-top: 10px;
-  }
+    .my-title {
+        text-align: center;
+        display: block;
+        margin-left: 0;
+        margin-top: 10px;
+    }
 
-  .main-nav {
-    list-style-type: none;
-    padding-left: 0;
-    margin-right: 0;
-    margin-top: 5px;
-    float: none;
-  }
+    .main-nav {
+        list-style-type: none;
+        padding-left: 0;
+        margin-right: 0;
+        margin-top: 5px;
+        float: none;
+    }
 
-  .page-title {
-    display: none;
-  }
-
+    .page-title {
+        display: none;
+    }
 }
 
 .nav-btn {
-  @include my_buttons;
+    @include my_buttons;
 }
 
 .nav-btn:hover {
-  background-color: lighten( $secondary-color, 20%); 
+    background-color: lighten( $secondary-color, 20%); 
 }
 
 .nav-btn .active {
-  background-color: $secondary-color;
-  color: #fff;
-  padding: 8px 12px;
-  border-radius: 4px;
-  margin: 0 -12px;
+    background-color: $secondary-color;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 0 -12px;
 }
 
 .btn:hover a {
-  color: #fff;
+    color: #fff;
 }
 
 .btn {
-  @include my_buttons;
-  text-decoration: none;
+     @include my_buttons;
+    text-decoration: none;
 }
 
 .btn:hover {
-  background-color: $secondary-color;
+    background-color: $secondary-color;
 }
 
 .active {
@@ -209,18 +207,17 @@ li {
 
 @media (max-width:640px) {
 
-  .btn {
-    @include phone_buttons;
-  } 
+    .btn {
+        @include phone_buttons;
+    } 
 
-  .nav-btn {
-    @include phone_buttons;
-  }
+    .nav-btn {
+        @include phone_buttons;
+    }
 
-  .nav-btn .active {
-    padding: 4px 6px;
-  }
-  
+    .nav-btn .active {
+        padding: 4px 6px;
+    }
 } 
 
 /************************
@@ -228,118 +225,113 @@ li {
 ************************/
 
 .welcome-cont {
-  display: block;
-  height: 100px;
+    display: block;
+    height: 100px;
 }
 
 .true {
-  @include fading_welcome;
-  left: 37%;
+    @include fading_welcome;
+    left: 37%;
 }
 
 .true2 {
-  @include fading_welcome;
-  left: 44%;
+    @include fading_welcome;
+    left: 44%;
 }
 
 .true3 {
-  @include fading_welcome;
-  left: 50%;
+    @include fading_welcome;
+    left: 50%;
 }
 
 @media (max-width:640px) {
 
-  .true {
-    left: 22%;
-    @include fading_swelcome;
-  }
+    .true {
+        left: 22%;
+        @include fading_swelcome;
+    }
 
-  .true2 {
-    left: 38%;
-    @include fading_swelcome;
-  }
+    .true2 {
+        left: 38%;
+        @include fading_swelcome;
+    }
 
-  .true3 {
-    left: 53%;
-    @include fading_swelcome;
-  }
-
+    .true3 {
+        left: 53%;
+        @include fading_swelcome;
+    }
 }
 
 .welcome-img-cont {
-  height: 300px;
-  width: 100%;
-  margin: 0 auto;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .welcome-col {
-  display: inline;
-  float: left;
-  width: 30%;
-  margin: 10px 1.5%;
-  font-size: 30px;
-  font-weight: 600;
+    display: inline;
+    float: left;
+    width: 30%;
+    margin: 10px 1.5%;
+    font-size: 30px;
+    font-weight: 600;
 
-  a {
-    color: $secondary-color;
-  }
+    a {
+        color: $secondary-color;
+    }
 
-  a:hover {
-    color: darken($secondary-color, 20%);
-  }
-  
+    a:hover {
+        color: darken($secondary-color, 20%);
+    }
 }
 
 .welcome-img {
-  width: 100%;
-  margin-top: 15px;
+     width: 100%;
+    margin-top: 15px;
 }
 
 .welcome-content-cont {
-  width: 80%;
-  max-width: 700px;
-  height: 300px;
-  margin: 0 auto;
-  margin-top: 50px;
+    width: 80%;
+    max-width: 700px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
 
-  p {
-    font-family: $p-fonts;
-    text-align: left;
-    font-size: 20px;
-  }
+    p {
+        font-family: $p-fonts;
+        text-align: left;
+        font-size: 20px;
+    }
 
-  a {
-    color: $secondary-color;
-  }
+    a {
+        color: $secondary-color;
+    }
 
-  a:hover {
-    color: darken($secondary-color, 20%);
-  }
-
+    a:hover {
+        color: darken($secondary-color, 20%);
+    }
 }
 
 @media (max-width:640px) {
 
-  .welcome-cont {
-    height: 40px;
-  }
-
-  .welcome-img-cont {
-    height: 100px;
-  }
-
-  .welcome-col {
-    font-size: 20px;
-  }
-
-  .welcome-content-cont {
-    height: 400px;
-    p {
-      font-size: 16px;
+    .welcome-cont {
+        height: 40px;
     }
 
-  }
+    .welcome-img-cont {
+        height: 100px;
+    }
 
+    .welcome-col {
+        font-size: 20px;
+    }
+
+    .welcome-content-cont {
+        height: 400px;
+        p {
+            font-size: 16px;
+        }
+    }
 }
 
 /************************
@@ -347,93 +339,92 @@ li {
 ************************/
 
 .body-head {
-  height: 50px;
-  padding-top: 10px;
+    height: 50px;
+    padding-top: 10px;
 }
 
 .stopwatch-time {
-  font-size: 30px;
-  color: $secondary-color;
+    font-size: 30px;
+    color: $secondary-color;
 }
 
 .rules-container {
-  width: 100%;
-  padding-top: 40px;
+    width: 100%;
+    padding-top: 40px;
 }
 
 .rules-cont {
-  width: 100%;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
 
 .rules-title {
-  text-align: center;
-  color: $secondary-color;
-  margin-top: 10px;
+    text-align: center;
+    color: $secondary-color;
+    margin-top: 10px;
 }
 
 .rules-list {
-  font-family: $p-fonts;
-  font-size: 20px;
-  line-height: 165%;
+    font-family: $p-fonts;
+    font-size: 20px;
+    line-height: 165%;
 }
 
 .rules {
-  list-style-type: decimal;
+    list-style-type: decimal;
 }
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid $secondary-color;
-  margin: 1em 0;
-  padding: 0; 
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid $secondary-color;
+    margin: 1em 0;
+    padding: 0; 
 }
 
 .start-btn {
-  @include my_buttons;
-  text-decoration: none;
+    @include my_buttons;
+    text-decoration: none;
 }
 
 @media (max-width:640px) {
 
-  .body-head {
-    width: 40%;
-    display: inline;
-    float: left;
-    padding: 0;
-  } 
+    .body-head {
+        width: 40%;
+        display: inline;
+        float: left;
+        padding: 0;
+    } 
 
-  .rules-cont {
-    width: 80%;
-  }
-
-  .score-cont {
-    width: 100%;
-  }
-
-  .player-score {
-      font-size: 20px;
-      margin: 10px 0 10px 10px;
+    .rules-cont {
+        width: 80%;
     }
 
-  .stopwatch-time {
-    font-size: 20px;
-    display: inline-block;
-    width: 40%;
-    padding-top: 10px;
-  }
+    .score-cont {
+        width: 100%;
+    }
 
-  .start-btn {
-    @include phone_buttons;
-    padding: 6px 10px;
-    margin-top: 10px;
-  }
+    .player-score {
+        font-size: 20px;
+        margin: 10px 0 10px 10px;
+    }
 
+    .stopwatch-time {
+        font-size: 20px;
+        display: inline-block;
+        width: 40%;
+        padding-top: 10px;
+    }
+
+    .start-btn {
+        @include phone_buttons;
+        padding: 6px 10px;
+        margin-top: 10px;
+    }
 }
 
 /************************
@@ -441,121 +432,110 @@ hr {
 ************************/
 
 .list-cont {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width:640px) {
-
-  .list-cont {
-    width: 80%;
-  }
-
+    .list-cont {
+        width: 80%;
+    }
 }
 
 .question-cont {
-  margin-top: 40px;
-  text-align: left;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .questions {
-  font-family: $p-fonts;
-  font-size: 20px;
-  text-align: left;
+    font-family: $p-fonts;
+    font-size: 20px;
+    text-align: center;
 }
 
 .question {
-  @include my_buttons;
-  background-color: $secondary-color;
-  color: #fff;
-
+    @include my_buttons;
+    background-color: $secondary-color;
+    color: #fff;
 }
 
 .question:hover {
-  background-color: #00ff00;
-  background-color: #fff;
-  color: #4e5255;
-  color: $secondary-color;
+    background-color: #00ff00;
+    background-color: #fff;
+    color: #4e5255;
+    color: $secondary-color;
 }
 
 .expire-cont {
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  font-family: $p-fonts;
-  font-size: 16px;
-  line-height: 165%;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: $p-fonts;
+    font-size: 16px;
+    line-height: 165%;
 }
 
 @media (max-width:640px) {
-
-  .question {
-    @include phone_questions;
-    background-color: $secondary-color;
-    color: #fff;
-  }
-
-  .expire-cont {
-    width: 300px;
-
-    p {
-      font-size: 20px;
+    .question {
+        @include phone_questions;
+        background-color: $secondary-color;
+        color: #fff;
     }
 
-  }
+    .expire-cont {
+        width: 300px;
 
+        p {
+            font-size: 20px;
+        }
+  }
 }
 
 .places-list-cont {
-  text-align: center;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-
-  .questions {
     text-align: center;
-  }
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 
-  .question-cont {
-    text-align: center;
-    margin-top: 40px;
-  }
+    .questions {
+        text-align: center;
+    }
 
+    .question-cont {
+        text-align: center;
+        margin-top: 40px;
+    }
 }
 
 .question-img {
-  width: 75%;
-  margin: 0 25% 20px 25%;
-
+    width: 75%;
+    margin: 0 auto 20px auto;
 }
 
 @media (max-width:640px) {
+    .places-list-cont {
 
-  .places-list-cont {
+        .questions {
+            text-align: left;
+        }
 
-    .questions {
-    text-align: left;
-  }
-
-    .question {
-      display: inline;
-      margin: 5px;
+        .question {
+            display: inline;
+            margin: 5px;
+        }
     }
 
-  }
+    .questions {
+        font-size: 20px;
+        text-align: left;
+    }
 
-  .questions {
-    font-size: 20px;
-    text-align: left;
-  }
-
-  .question-img {
-    width: 100%;
-    margin: 0;
-  }
-
+    .question-img {
+        width: 100%;
+        margin: 0;
+    }
 }
 
 /************************
@@ -563,27 +543,25 @@ hr {
 ************************/
 
 .footer {
-  
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #fff;
-  height: 60px;
-  width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
 
-  p {
-    margin: 0 0 10px 50px;
-    padding-top: 20px;
-  }
+    p {
+        margin: 0 0 10px 50px;
+        padding-top: 20px;
+    }
 
-  a {
-    color: $secondary-color;
-  }
+    a {
+        color: $secondary-color;
+    }
 
-  a:hover {
-    color: darken($secondary-color, 20%);
-  }
-
+    a:hover {
+        color: darken($secondary-color, 20%);
+    }
 }
 
 /************************
@@ -591,47 +569,47 @@ hr {
 ************************/
 
 .green-score {
-  color: green;
+    color: green;
 }
 
 .red-score {
-  color: red;
+    color: red;
 }
 
 .message-clicked-green {
-  animation: clicked-keyframes 1s;
-  color: green;
+    animation: clicked-keyframes 1s;
+    color: green;
 }
 
 .message-clicked-red {
-  animation: clicked-keyframes 1s;
-  color: red;
+     animation: clicked-keyframes 1s;
+    color: red;
 }
 
 .message-clicked-blue {
-  animation: clicked-keyframes 3s;
-  color: blue;
+    animation: clicked-keyframes 3s;
+    color: blue;
 }
 
 @keyframes clicked-keyframes {
-  from {opacity: 0.01}
-  to {opacity: 1}
+    from {opacity: 0.01}
+    to {opacity: 1}
 }
 
 .example-appear {
-  opacity: 0.01;
+    opacity: 0.01;
 }
 
 .example-appear.example-appear-active {
-  opacity: 1;
-  transition: opacity 2s ease-in;
+    opacity: 1;
+    transition: opacity 2s ease-in;
 }
 
 .example-leave {
-  opacity: 1;
+    opacity: 1;
 }
 
 .example-leave.example-leave-active {
-  opacity: 0.01;
-  transition: opacity 1s ease-in;
+    opacity: 0.01;
+    transition: opacity 1s ease-in;
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import { bindActionCreators } from 'redux';
+import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import shuffleArray from 'shuffle-array';
 import { selectPlaces } from '../actions/guess-places';
@@ -9,9 +9,6 @@ class PlacesTrivia extends Component {
 	createPlacesQuestion() {
 		var size = 1;
 		return this.props.places.slice(0, size).map((places) => {
-
-				
-
 			return(
 				<li key={places.id}>
 					<p className="questions">{ places.question }</p>

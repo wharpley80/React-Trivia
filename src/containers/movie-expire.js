@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-//import { bindActionCreators } from 'redux';
+import { bindActionCreators } from 'redux';
 import { restartMovie } from '../actions/restart-movie';
 
 class MovieExpire extends Component {

@@ -14,8 +14,8 @@
         ]
     },
     "scripts": {
-            "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
         "dev": "webpack-dev-server --port 3000 --progress --inline --hot --history-api-fallback",
         "postinstall": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors",
         "start": "node server.js"
@@ -23,7 +23,9 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "dependencies": {},
+    "dependencies": {
+        "express": "^4.17.1"
+    },
     "devDependencies": {
         "@babel/core": "^7.5.0",
         "@babel/preset-env": "^7.5.0",

@@ -19,10 +19,11 @@ module.exports = {
 				loaders: ["url", "img"]
 			}
 		]
-	},
+	}
+	/*,
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: './dist/index.html'
+			template: 'index.html'
 		})
-	]
+	]*/
 }

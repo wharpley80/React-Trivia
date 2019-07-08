@@ -5,7 +5,7 @@ var merge = require('webpack-merge');
 module.exports = merge(common, {
 	mode: "production",
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'dist', 'index.html'),
 		filename: 'bundle[contenthash].js'
 	}
 });

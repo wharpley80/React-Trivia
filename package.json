@@ -23,6 +23,7 @@
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.1",
+        "html-webpack-plugin": "^3.2.0",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
         "webpack": "^4.35.2",
@@ -36,7 +37,6 @@
         "babel-loader": "^8.0.6",
         "create-react-class": "^15.6.3",
         "css-loader": "^3.0.0",
-        "html-webpack-plugin": "^3.2.0",
         "node-sass": "^4.12.0",
         "prop-types": "^15.7.2",
         "react-addons-css-transition-group": "^15.6.2",

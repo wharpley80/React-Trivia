@@ -4,6 +4,7 @@ var merge = require('webpack-merge');
 const express  = require('express');
 const port = process.env.PORT || 3000;
 const app = express();
+app.listen(port);
 
 module.exports = merge(common, {
 	mode: "production",
@@ -13,4 +14,4 @@ module.exports = merge(common, {
 	}
 });
 
-app.listen(port);
+

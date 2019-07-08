@@ -16,9 +16,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "webpack-dev-server --config webpack.dev.js --open",
-        "build": "webpack --config webpack.prod.js",
-        "dev": "webpack-dev-server --port 3000 --progress --inline --hot --history-api-fallback",
-        "postinstall": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors"
+        "build": "webpack --config webpack.prod.js"
     },
     "keywords": [],
     "author": "",

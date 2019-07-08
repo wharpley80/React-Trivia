@@ -1,6 +1,7 @@
 var path = require('path');
 var common = require('./webpack.config');
 var merge = require('webpack-merge');
+const port = process.env.PORT || 3000;
 
 module.exports = merge(common, {
 	mode: "production",
@@ -9,3 +10,5 @@ module.exports = merge(common, {
 		filename: 'bundle[contenthash].js'
 	}
 });
+
+app.listen(port);

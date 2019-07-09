@@ -17,7 +17,7 @@ import Places from './components/Places';
 const routes = (
 	<Router>
 		<Route exact path="/" component={App} />
-		<Route path="/movies" component={Movies} />
+		<Route path="movies" component={Movies} />
 		<Route path="/sports" component={Sports} />
 		<Route path="/places" component={Places} />
 	</Router>

@@ -10,5 +10,4 @@ module.exports = merge(common, {
 		filename: 'bundle[contenthash].js'
 		//publicPath: ASSET_PATH
 	}
-  ]
 });

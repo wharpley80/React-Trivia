@@ -7,6 +7,11 @@ const port = process.env.PORT;
 const app = express();
 app.listen(port);
 */
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
+
 module.exports = merge(common, {
 	mode: "production",
 	output: {

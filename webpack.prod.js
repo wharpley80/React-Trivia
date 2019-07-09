@@ -7,7 +7,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = merge(common, {
 	mode: "production",
 	output: {
-		path: distpath.resolve(__dirname, '/'),
+		path: distpath.resolve(__dirname, 'dist'),
 		filename: 'bundle[contenthash].js'
 	}
 });

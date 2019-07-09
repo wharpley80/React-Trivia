@@ -6,7 +6,7 @@ module.exports = {
 	plugins: [
 		new HtmlWebpackPlugin({
 			hash: true,
-			template: './dist/index.html'
+			template: './index.html'
 		})
 	],
 	module: {

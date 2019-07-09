@@ -13,7 +13,7 @@ module.exports = merge(common, {
 	plugins: [
 		new HtmlWebpackPlugin({
 			hash: true,
-			filename: './dist/index.html'
+			template: './dist/index.html'
 		})
 	],
 });

@@ -15,8 +15,9 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "webpack-dev-server --config webpack.dev.js --open",
-        "build": "webpack --config webpack.prod.js --optimize-minimize"
+        "start": "node server.js",
+        "build": "webpack --config webpack.prod.js --optimize-minimize",
+        "postinstall": "npm run build"
     },
     "keywords": [],
     "author": "",

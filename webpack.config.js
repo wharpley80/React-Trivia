@@ -15,7 +15,8 @@ module.exports = {
 			hash: true,
 			title: 'ReacTrivia | Movie Trivia | Sports Trivia | Trivia game app built with React.js and Redux',
 			template: './src/index.html',
-			filename: './index.html'
+			//filename: './index.html'
+			filename: './dist/index.html'
 		})
 	],
 	module: {

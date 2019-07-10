@@ -10,13 +10,16 @@ module.exports = {
 		filename: "./bundle.js"
 	},
 	*/
+	output: {
+		filename: './bundle.js'
+	},
+	mode: "production",
 	plugins: [
 		new HtmlWebpackPlugin({
 			hash: true,
 			title: 'ReacTrivia | Movie Trivia | Sports Trivia | Trivia game app built with React.js and Redux',
-			//template: './src/index.html',
-			//filename: './index.html'
-			template: './index.html',
+			template: './src/index.html',
+			//template: './index.html',
 			filename: './index.html'
 		})
 	],

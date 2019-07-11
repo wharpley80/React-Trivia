@@ -13,7 +13,6 @@ module.exports = {
 	output: {
 		filename: './bundle.js'
 	},
-	mode: "production",
 	plugins: [
 		new HtmlWebpackPlugin({
 			hash: true,

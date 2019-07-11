@@ -11,7 +11,7 @@ module.exports = {
 	},
 	*/
 	output: {
-		path: mypath.resolve(__dirname, 'dist'),
+		//path: mypath.resolve(__dirname, 'dist'),
 		filename: './bundle.js'
 	},
 	plugins: [

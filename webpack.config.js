@@ -11,6 +11,7 @@ module.exports = {
 	},
 	*/
 	output: {
+		path: mypath.resolve(__dirname, 'dist'),
 		filename: './bundle.js'
 	},
 	plugins: [
@@ -19,7 +20,7 @@ module.exports = {
 			title: 'ReacTrivia | Movie Trivia | Sports Trivia | Trivia game app built with React.js and Redux',
 			template: './src/index.html',
 			//template: './index.html',
-			filename: './dist/index.html'
+			filename: './index.html'
 		})
 	],
 	module: {

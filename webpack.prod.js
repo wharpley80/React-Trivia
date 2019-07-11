@@ -8,7 +8,7 @@ module.exports = merge(common, {
 	output: {
 		//path: distpath.resolve(__dirname, 'dist'),
 		//filename: 'bundle[contenthash].js',
-		filename: './bundle.js'
+		filename: './dist/bundle.js'
 		//publicPath: '/dist/'
 	}
 });

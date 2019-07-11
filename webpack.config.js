@@ -11,7 +11,7 @@ module.exports = {
 	},
 	*/
 	output: {
-		filename: './dist/bundle.js'
+		filename: './bundle.js'
 	},
 	mode: "production",
 	plugins: [

@@ -17,7 +17,7 @@ $p-fonts: 'Titillium Web','Helvetica Neue','Helvetica','Arial',sans-serif;
 }
 
 @mixin my_buttons {
-    padding: 8px 12px;
+    padding: 8px 0;
     margin: 5px 10px;
     font-size: .8em;
     text-transform: uppercase;
@@ -81,6 +81,7 @@ header {
 a {
 	text-decoration: none;
 	color: $primary-color;
+    padding: 8px 12px;
 }
 
 #root {
@@ -119,6 +120,7 @@ ul {
 
 li {
     list-style: none;
+    padding: 8px 12px;
 }
 
 /************************
@@ -195,6 +197,7 @@ li {
 .btn {
      @include my_buttons;
     text-decoration: none;
+    padding: 8px 10px;
 }
 
 .btn:hover {
@@ -286,7 +289,7 @@ li {
 }
 
 .welcome-img {
-     width: 100%;
+    width: 100%;
     margin-top: 15px;
 }
 
@@ -389,6 +392,7 @@ hr {
 .start-btn {
     @include my_buttons;
     text-decoration: none;
+    padding: 8px 10px;
 }
 
 @media (max-width:640px) {
@@ -458,6 +462,7 @@ hr {
     @include my_buttons;
     background-color: $secondary-color;
     color: #fff;
+    padding: 0;
 }
 
 .question:hover {
@@ -490,7 +495,7 @@ hr {
         p {
             font-size: 20px;
         }
-  }
+    }
 }
 
 .places-list-cont {
@@ -582,7 +587,7 @@ hr {
 }
 
 .message-clicked-red {
-     animation: clicked-keyframes 1s;
+    animation: clicked-keyframes 1s;
     color: red;
 }
 
